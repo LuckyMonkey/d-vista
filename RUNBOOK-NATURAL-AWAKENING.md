@@ -57,7 +57,7 @@ rehearsal is keeping you awake, drop it completely.
 
 You don't need to get up and find the router. The rehearsal works from memory.
 Picturing the router briefly is fine; scenario C from
-[tonight.md](tonight.md#step-4-practice-three-imagined-scenarios-2-3-minutes),
+[tonight.md](RUNBOOK-TONIGHT.md#step-4-practice-three-imagined-scenarios-2-3-minutes),
 where there's no router at all, is better.
 
 ## Logging

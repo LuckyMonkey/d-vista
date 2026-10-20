@@ -1,7 +1,7 @@
 # Boot Sequence
 
 This document traces D-VISTA from source repository to interactive session. Each
-stage is given twice: as **documented fiction** (how the system describes
+stage is given twice: as **documented protocol analogy** (how the system describes
 itself) and as **actual cognitive action** (what the operator is really doing).
 The second column is the true one.
 
@@ -23,7 +23,7 @@ The second column is the true one.
                                                      recall / log
 ```
 
-| Stage | Documented fiction | Actual cognitive action |
+| Stage | Documented protocol analogy | Actual cognitive action |
 | --- | --- | --- |
 | Acquire | Source is cloned from the repository. | You download or open some text files, awake, with a normal computer. |
 | Install | The README writes a dormant module into prospective memory. | You read an instruction and choose to remember it. |
@@ -60,7 +60,7 @@ anywhere outside you.
 
 DSR is usually lossy. The dream may keep the router and lose the rule, which is
 why the rule is rehearsed more than the router. See `STALE_CACHE` in
-[incident response](../runbooks/incident-response.md#stale_cache-warn).
+[incident response](RUNBOOK-INCIDENT-RESPONSE.md#stale_cache-warn).
 
 ## 4. In-universe errors
 
@@ -87,4 +87,4 @@ and excitement during a lucid dream tends to wake you.
   imply interactive authentication.
 
 The out-of-universe account is in
-[implementation-notes.md](implementation-notes.md).
+[implementation-notes.md](IMPLEMENTATION.md).

@@ -1,5 +1,15 @@
 # Claude Code Instructions — D-VISTA
 
-This repository is **D-VISTA**; **dDNS** remains a subsystem. Build briefs live in [`meta/`](meta/RUNBOOK.md): [`meta/RUNBOOK.md`](meta/RUNBOOK.md) (original scope, RFC tree, safety constraints) and [`meta/REFACTOR-RUNBOOK.md`](meta/REFACTOR-RUNBOOK.md) (documentation-as-installer identity). Their constraints take precedence over improvisation. Keep the project Markdown-only and zero-dependency. Do not overwrite unrelated files or push without explicit permission.
+D-VISTA is an experimental cognitive protocol for lucid-dream induction using a semantic Wi-Fi awareness cue. It is distributed through its documentation.
 
-Style: dead-serious system documentation that slowly reveals it is a practical lucid-dream induction manual. The conceptual trigger is **awareness of having Wi-Fi**, not a specific imagined router, SSID, or screenshot. The WRT54GS is the waking mnemonic anchor, not a transmitter into dreams. After writing, validate links and summarize files.
+**Architecture:** dDNS / Phase-NAT / dWLAN / LCP; WRT54GS is optional physical mnemonic hardware, not a device transmitting messages into dreams.
+
+**Research rule:** Every claim must have an appropriate evidence level. The Wi-Fi-specific hypothesis is not yet empirically validated. Formal measurement is specified in [STUDY.md](STUDY.md), [MEASUREMENT.md](MEASUREMENT.md), and [REPLICATION.md](REPLICATION.md). The dataset [OBSERVATIONS.csv](OBSERVATIONS.csv) starts empty.
+
+**Repository rule:** one flat root directory; filenames identify RFCs and procedures, without nested `docs`, `rfc`, `runbooks`, `meta`, or `examples` trees.
+
+**Writing:** precise, restrained, unambiguous, technical, serious. Don't present the protocol as entertainment. Define the analogy and its physiological interpretation. Document uncertainties instead of implying certainty.
+
+**Safety:** no deliberate sleep restriction, forced nocturnal waking, hardware modification, treatment advice, silencing medical alarms, or unsupported external-communication claims.
+
+Use zero runtime dependencies. Validate all relative links. Do not publish or merge without the owner's explicit authorization.

@@ -70,6 +70,6 @@ Stop if this makes you more tired, repeatedly wakes you, provokes frightening ex
 - [Horowitz et al., 2020, Dormio](https://doi.org/10.1016/j.concog.2020.102938): sound-cued **dream incubation at sleep onset**, involving monitoring and repeated prompts.
 - [Horowitz et al., 2023](https://doi.org/10.1038/s41598-023-31361-w): targeted incubation and **theme-related creative performance**.
 - [MIT Dormio overview](https://www.media.mit.edu/projects/sleep-creativity/overview/): Edison/Dalí historical background.
-- [Evidence register](../docs/evidence-register.md): separates creative insight, incorporation, and lucidity.
+- [Evidence register](EVIDENCE.md): separates creative insight, incorporation, and lucidity.
 
 **Acceptance criterion:** a dated, accurately labeled fragment or an honest “nothing recalled.” Neither implies a lucid dream.

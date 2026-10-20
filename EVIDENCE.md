@@ -22,7 +22,7 @@ Status: literature reviewed 2026-10-20. This document tracks *claims*, not just 
 | **Targeted Dream Incubation (TDI / Dormio)** | **Demonstrated for influencing sleep-onset dream themes** | Horowitz et al. (2020) used a wearable and sound prompts; 2023 work found theme-related creative benefits following incubation | Supports *dream-content* pathway; does not directly validate the Wi-Fi cue |
 | **Targeted Lucidity Reactivation (TLR)** | **Promising for lucid-dream induction with trained external cues** | Konkoly et al. (2024) trained a lucidity-oriented response to sounds and replayed cues during sleep; reported increased lucidity vs appropriate controls | **Future research track**, not a DIY overnight audio implementation |
 | **Conceptual Wi-Fi discovery + WRT54GS anchor** | **D-VISTA hypothesis, untested** | No identified controlled experiment validates Wi-Fi as a dream cue or a specific router as a mnemonic aid | Core n=1 experiment; present as hypothesis, not established science |
-| **“Dream pulls repository from GitHub”** | **Narrative metaphor, not a physical claim** | Dreams can reconstruct prior experiences; no network or software executes in sleeping cognition as described | Keep the fiction legible; explicitly distinguish subjective dream content from external downloads |
+| **“Dream pulls repository from GitHub”** | **Narrative metaphor, not a physical claim** | Dreams can reconstruct prior experiences; no network or software executes in sleeping cognition as described | Keep the experimental and cognitive interpretation explicit; explicitly distinguish subjective dream content from external downloads |
 
 ## Do not confuse endpoints
 
@@ -57,4 +57,6 @@ A successful N1 capture **does not** satisfy the primary LCP success criterion. 
 - No drugs or supplements are recommended here, even where research literature has studied them.
 - Do not claim clinical effectiveness, diagnostic capacity, guaranteed lucidity, or cross-state network communication.
 
-Related: [N1 Capture](../runbooks/n1-capture.md), [research and limitations](research-and-limitations.md), [Lucidity Handshake](../rfc/0004-lucidity-handshake.md).
+Related: [N1 Capture](RUNBOOK-N1-CAPTURE.md), [research and limitations](RESEARCH.md), [Lucidity Handshake](RFC-0004-LUCIDITY-HANDSHAKE.md).
+
+9. **Konkoly et al. (2021).** “Real-time dialogue between experimenters and dreamers during REM sleep.” *Current Biology* 31(7), 1417–1427.e6. DOI: [10.1016/j.cub.2021.01.026](https://doi.org/10.1016/j.cub.2021.01.026). This demonstrates that responsive lucid REM sleep can be objectively investigated with signals.

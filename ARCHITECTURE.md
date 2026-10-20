@@ -82,7 +82,7 @@ object gives the rehearsal something to hold onto.
 The same features cut the other way. Wi-Fi is so ordinary in waking life that it
 may not feel noteworthy when it appears in a dream, which is the classic way a
 cue gets missed. That is why the protocol trains the question, not the
-recognition of Wi-Fi itself, and why [RFC 0004](../rfc/0004-lucidity-handshake.md)
+recognition of Wi-Fi itself, and why [RFC 0004](RFC-0004-LUCIDITY-HANDSHAKE.md)
 treats "Wi-Fi appeared, no question asked" as the expected first failure.
 
 ## 3. Perspective-dependent resolution
@@ -138,6 +138,6 @@ protocol operates. The second column never changes in response to it.
   sleep. Some research setups do this under controlled conditions; D-VISTA 0.1.0
   does not.
 - **No alarms.** No wake-back-to-bed schedule. See
-  [research-and-limitations.md](research-and-limitations.md).
+  [research-and-limitations.md](RESEARCH.md).
 - **No software.** The runtime is the operator. The repository is the
   documentation.

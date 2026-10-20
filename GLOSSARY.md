@@ -30,7 +30,7 @@ cognition. Not real DNS. Sends no queries.
 An invented project term, not a research finding. Dreams draw on recent waking
 experience; DSR names the case where pieces of a document you read and rehearsed
 reappear in a dream, usually altered. A dream of downloading this repository is
-DSR, not a download. See [boot-sequence.md](boot-sequence.md).
+DSR, not a download. See [boot-sequence.md](BOOT-SEQUENCE.md).
 
 ### DHCP (Dynamic Host Configuration Protocol)
 
@@ -60,12 +60,12 @@ serve as a cue to recognize dreaming. dDNS installs an artificial one.
 Dream Virtual Interface for State Transition and Awareness. The project, and
 the runtime that hosts dDNS, Phase-NAT, dWLAN and LCP: the operator's sleeping
 mind, described as a service that is unavailable while the host is awake. See
-[d-vista.md](d-vista.md).
+[d-vista.md](OPERATIONS.md).
 
 ### dWLAN
 
 Dream WLAN. The subsystem that covers awareness that Wi-Fi is available, with or
-without any imagery. Specified in [RFC 0003](../rfc/0003-conceptual-wlan-discovery.md).
+without any imagery. Specified in [RFC 0003](RFC-0003-CONCEPTUAL-WLAN-DISCOVERY.md).
 
 ### ERR_HOST_ACTIVE
 
@@ -82,13 +82,13 @@ accept the answer.
 
 Filters traffic between networks by rule. In dDNS: the boundary that keeps
 dream content from being treated as waking fact. See
-[RFC 0006](../rfc/0006-security-considerations.md). Default policy: drop.
+[RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md). Default policy: drop.
 
 ### Handshake
 
 A protocol exchange that establishes a session. In dDNS: notice cue, recall
 intention, check state, recognize dreaming. Defined in
-[RFC 0004](../rfc/0004-lucidity-handshake.md).
+[RFC 0004](RFC-0004-LUCIDITY-HANDSHAKE.md).
 
 ### Host
 
@@ -114,7 +114,7 @@ without that recognition is `RUNTIME_AVAILABLE`, not a session.
 ### LCP (Lucidity Control Protocol)
 
 The rehearsed sequence: notice the cue, recall the rule, check the situation,
-recognize the dream. Specified in [RFC 0004](../rfc/0004-lucidity-handshake.md).
+recognize the dream. Specified in [RFC 0004](RFC-0004-LUCIDITY-HANDSHAKE.md).
 
 ### Lucidity
 
@@ -131,7 +131,7 @@ so. dDNS is MILD with a networking-themed cue.
 
 Rewrites addresses as traffic passes between networks. In dDNS, Phase-NAT:
 the metaphorical translation of a waking intention into something usable in a
-dream. See [RFC 0001](../rfc/0001-reality-phase-nat.md).
+dream. See [RFC 0001](RFC-0001-REALITY-PHASE-NAT.md).
 
 ### NXDOMAIN
 
@@ -144,7 +144,7 @@ failure.
 
 The metaphorical translation of a waking intention into a reminder that works
 in dreams. No information crosses between states except through the operator's
-own memory. See [RFC 0001](../rfc/0001-reality-phase-nat.md).
+own memory. See [RFC 0001](RFC-0001-REALITY-PHASE-NAT.md).
 
 ### Prospective memory
 
@@ -189,7 +189,7 @@ expiring. The second TTL is short. Write things down.
 Waking during the night, staying up briefly, then returning to sleep, often
 combined with MILD. Usually done with an alarm. D-VISTA 0.1.0 does not use alarms;
 it only uses awakenings that happen on their own. See
-[runbooks/natural-awakening.md](../runbooks/natural-awakening.md).
+[RUNBOOK-NATURAL-AWAKENING.md](RUNBOOK-NATURAL-AWAKENING.md).
 
 ### Wi-Fi
 

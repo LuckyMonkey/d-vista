@@ -18,7 +18,7 @@ this document are used as follows:
 - **MAY**: optional. Neither helps nor hurts conformance.
 
 These words are a documentation convention borrowed from network standards, and
-the protocol they define is a fiction wrapped around a real practice. They
+the protocol they define is a terminology layer for a prospective-memory practice. They
 describe how this protocol is defined. They do **not** describe scientific
 certainty about how sleep or dreaming works. Nothing in this specification is
 guaranteed to produce a lucid dream.
@@ -74,7 +74,7 @@ guaranteed to produce a lucid dream.
    medical alarm, including glucose and insulin alerts.
 4. The operator SHOULD stop rehearsing as soon as rehearsal begins to delay sleep.
 5. The operator MAY use a natural, unplanned awakening for a brief rehearsal, per
-   [runbooks/natural-awakening.md](runbooks/natural-awakening.md).
+   [RUNBOOK-NATURAL-AWAKENING.md](RUNBOOK-NATURAL-AWAKENING.md).
 
 ### 3.5 Recording
 
@@ -158,10 +158,10 @@ themselves fall asleep, and SHOULD NOT try.
 | `F4 SESSION_DROP` | Lucid briefly, then woke. | Excitement. Observe before acting. |
 | `F5 RECALL_LOSS` | Lucid, but details lost by morning. | Record sooner, in fewer words. |
 | `F6 SLEEP_DEGRADED` | Rehearsal delayed sleep or caused waking. | Stop. Sleep takes precedence over protocol. |
-| `F7 MISATTRIBUTION` | Dream content treated as real information. | See [RFC 0006](rfc/0006-security-considerations.md). |
+| `F7 MISATTRIBUTION` | Dream content treated as real information. | See [RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md). |
 
 Operational responses are in
-[runbooks/incident-response.md](runbooks/incident-response.md).
+[RUNBOOK-INCIDENT-RESPONSE.md](RUNBOOK-INCIDENT-RESPONSE.md).
 
 ## 6. Conformance
 

@@ -4,7 +4,7 @@ This document describes the D-VISTA protocol, including its dDNS, Phase-NAT,
 dWLAN and LCP subsystems, from the operator's side: what you do, in
 what order, and what is actually happening in your head at each step. The
 normative definition is [SPEC.md](SPEC.md). The bedtime procedure is
-[runbooks/tonight.md](runbooks/tonight.md).
+[RUNBOOK-TONIGHT.md](RUNBOOK-TONIGHT.md).
 
 ## Overview
 
@@ -62,7 +62,7 @@ password) but it does not have to. In dreams, a lot of information arrives as
 background knowledge rather than as something seen. You can simply know that
 this is your aunt's house even though it looks like an airport. "There's Wi-Fi
 here" belongs to the same category, which is why it was chosen. See
-[RFC 0003](rfc/0003-conceptual-wlan-discovery.md).
+[RFC 0003](RFC-0003-CONCEPTUAL-WLAN-DISCOVERY.md).
 
 ## 4. CHECK
 
@@ -96,7 +96,7 @@ to end lucid dreams, so stay calm and let the scene settle. Then do one planned
 action. The reference action is to type `ssh fridge` on any keyboard the dream
 provides. That is a dreamed action: nothing connects to anything. If no keyboard
 appears, say it aloud, or just look around. See
-[RFC 0005](rfc/0005-session-persistence.md).
+[RFC 0005](RFC-0005-SESSION-PERSISTENCE.md).
 
 ## 7. RECORD
 
@@ -106,7 +106,7 @@ invalidated.
 **Cognitive step.** Dream memories fade fast after waking. Write down or record
 what you remember before doing anything else, and keep two facts separate:
 whether Wi-Fi appeared, and whether you knew you were dreaming. Use the template
-in [examples/sample-dream-journal.md](examples/sample-dream-journal.md).
+in [DREAM-JOURNAL-TEMPLATE.md](DREAM-JOURNAL-TEMPLATE.md).
 
 ## Success and failure states
 
@@ -122,4 +122,4 @@ A score of 2 is useful data: it means the cue is reaching the dream. The next
 step is to rehearse the *question*, not to rehearse the router harder.
 
 The global failure state is **sleep got worse**. If that happens, stop. See
-[RFC 0006](rfc/0006-security-considerations.md).
+[RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md).

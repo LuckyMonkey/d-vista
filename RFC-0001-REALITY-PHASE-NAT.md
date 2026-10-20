@@ -29,8 +29,8 @@ encounter and act on.
 
 This document covers the translation step only: how the intention "recognize
 that I am dreaming" is bound to a cue. It does not cover recognition itself
-([RFC 0004](0004-lucidity-handshake.md)) or the choice of Wi-Fi as the cue
-([RFC 0003](0003-conceptual-wlan-discovery.md)).
+([RFC 0004](RFC-0004-LUCIDITY-HANDSHAKE.md)) or the choice of Wi-Fi as the cue
+([RFC 0003](RFC-0003-CONCEPTUAL-WLAN-DISCOVERY.md)).
 
 ## 2. Terminology
 
@@ -96,7 +96,7 @@ survive until a dream occurs. Mitigations:
 - rehearse briefly but with attention, as the last deliberate thought before
   sleep;
 - re-establish the mapping after a natural night waking
-  ([runbooks/natural-awakening.md](../runbooks/natural-awakening.md));
+  ([RUNBOOK-NATURAL-AWAKENING.md](RUNBOOK-NATURAL-AWAKENING.md));
 - repeat across nights. The table is expected to become more stable with use.
 
 Keepalives MUST NOT be sent by staying awake. A mapping that prevents sleep has
@@ -107,7 +107,7 @@ no traffic to translate.
 Translate one intention only. Operators commonly attempt to add entries ("and
 then I'll fly, and also find my grandmother"). Each additional entry dilutes the
 rehearsal. Additional actions belong in the session plan
-([RFC 0005](0005-session-persistence.md)), not in the translation table.
+([RFC 0005](RFC-0005-SESSION-PERSISTENCE.md)), not in the translation table.
 
 ## 8. Failure modes
 
@@ -124,4 +124,4 @@ rehearsal. Additional actions belong in the session plan
 
 The principal risk of this document is literalism. An operator who believes a
 real channel exists between dream and world may misattribute dream content. See
-[RFC 0006](0006-security-considerations.md).
+[RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md).

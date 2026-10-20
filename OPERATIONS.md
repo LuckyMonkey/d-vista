@@ -44,7 +44,7 @@ The operator must enter downtime to continue.
 ```
 
 There is no installer program. Installation is reading
-[BOOTSTRAP.md](../BOOTSTRAP.md) and doing what it says. No command prints the
+[BOOTSTRAP.md](BOOTSTRAP.md) and doing what it says. No command prints the
 banner above.
 
 ## 2. Operational vocabulary
@@ -68,10 +68,9 @@ WARNING: attempts to inspect the service from the waking host terminate the
 session.
 
 This is accurate. Checking whether you are falling asleep tends to keep you
-awake, and excitement during a lucid dream tends to wake you. D-VISTA is
-therefore monitored only after the fact, through the journal. There are no live
-dashboards and none should be built. Devices that watch the operator sleep are
-out of scope ([research-and-limitations.md](research-and-limitations.md),
+awake, and excitement during a lucid dream tends to wake you. D-VISTA's present implementation is monitored after waking through structured dream reports. Independent sleep-laboratory instrumentation could provide stronger objective evidence of sleep and volitional responses, but no such instruments are included in this release. Consumer devices do not verify lucidity. See [REPLICATION.md](REPLICATION.md).
+
+Detailed monitoring is outside the current protocol ([RESEARCH.md](RESEARCH.md),
 section 4).
 
 ## 4. Service level
@@ -80,7 +79,6 @@ section 4).
 - **Guarantee:** none. Consciousness discovery is best-effort.
 - **Maintenance window:** the day. Rehearsal happens here.
 - **Escalation:** stop the protocol and sleep normally
-  ([runbooks/incident-response.md](../runbooks/incident-response.md)).
+  ([RUNBOOK-INCIDENT-RESPONSE.md](RUNBOOK-INCIDENT-RESPONSE.md)).
 
-D-VISTA: making downtime productive since 2026. Downtime remains the priority;
-productivity is optional.
+D-VISTA's operating window is normal sleep. Preserving restorative sleep is a design requirement.

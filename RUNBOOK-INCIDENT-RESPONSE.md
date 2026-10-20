@@ -65,7 +65,7 @@ instead.
 - **Symptom.** The router, a network or the docs appeared in the dream, but the
 rule didn't come with them. You saw the WRT54GS and thought nothing of it.
 - **Cause.** The dream reconstructed the scenery from memory and dropped the
-instruction (see [Deferred Semantic Reconstruction](../docs/boot-sequence.md#3-deferred-semantic-reconstruction-dsr)).
+instruction (see [Deferred Semantic Reconstruction](BOOT-SEQUENCE.md#3-deferred-semantic-reconstruction-dsr)).
 The anchor was rehearsed more strongly than the rule.
 - **Action.** Spend less time on the router and more on the question. The
 router is only the installation medium.

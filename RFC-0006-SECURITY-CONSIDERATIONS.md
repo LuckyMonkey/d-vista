@@ -46,7 +46,7 @@ sleep, or that dream content can carry real information.
 
 **Controls.** Every document states that networking is an analogy. No physical
 network traffic crosses the sleep boundary. Contributions that claim otherwise
-are rejected ([CONTRIBUTING.md](../CONTRIBUTING.md)).
+are rejected ([CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ### 3.2 T2: Disrupted sleep
 
@@ -94,7 +94,7 @@ about the world.
 
 **Controls.** All dream content is untrusted and unauthenticated. The dream is
 authoritative for nothing. The dreamed `ssh fridge` in
-[RFC 0005](0005-session-persistence.md) connects to nothing and its output
+[RFC 0005](RFC-0005-SESSION-PERSISTENCE.md) connects to nothing and its output
 means nothing outside the dream. Do not type anything a dream told you into a
 real terminal.
 
@@ -103,7 +103,7 @@ real terminal.
 **Threat.** The experiment turns bedtime into a test the operator is failing.
 
 **Controls.** A night with score 0, logged honestly, is a conformant run
-([SPEC.md](../SPEC.md), section 6). There is no streak to maintain.
+([SPEC.md](SPEC.md), section 6). There is no streak to maintain.
 
 ## 4. Stop conditions
 

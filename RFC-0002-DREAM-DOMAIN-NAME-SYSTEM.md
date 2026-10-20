@@ -115,10 +115,10 @@ other lookup, including looking at a phone.
 
 The most common failure is a cache hit on `self.state`: the operator notices Wi-Fi,
 asks the question in a perfunctory way, and the cached "awake" is returned. The
-handshake in [RFC 0004](0004-lucidity-handshake.md) requires examining the
+handshake in [RFC 0004](RFC-0004-LUCIDITY-HANDSHAKE.md) requires examining the
 situation precisely to defeat this.
 
 ## 9. Security Considerations
 
 Records resolved in a dream are untrusted. See
-[RFC 0006](0006-security-considerations.md).
+[RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md).

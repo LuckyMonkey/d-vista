@@ -1,6 +1,6 @@
 # Implementation Notes
 
-This page drops the fiction. It says plainly what D-VISTA is, what it is not,
+This page describes the cognitive mechanism directly. It says plainly what D-VISTA is, what it is not,
 and what is actually happening when you use it.
 
 ## What D-VISTA is
@@ -25,7 +25,7 @@ it.
 
 ## What D-VISTA is not
 
-- **Not software.** Nothing is installed anywhere. "Installation" means you
+- **Not software.** No executable program is installed. "Installation" means you
   read an instruction and decided to remember it. You can uninstall it by not
   doing the rehearsal.
 - **Not a network.** No Wi-Fi signal, packet or GitHub traffic is involved
@@ -41,12 +41,12 @@ it.
 - **Not hidden.** Nothing here works on you without your participation, and
   nothing is meant to.
 
-## Why the fiction
+## Why protocol terminology helps
 
 The software framing is a mnemonic device too. A rule that arrives as an
 "install procedure" with a status screen is more memorable than the same rule in
 a self-help paragraph, and memorability is the whole job of prospective memory.
-The jokes are load-bearing.
+The technical metaphors reinforce a reproducible cue-and-response sequence.
 
 ## Sleep comes first
 
@@ -69,10 +69,10 @@ what you remember straight away, briefly, before checking your phone. Record two
 facts separately: whether Wi-Fi appeared, and whether you knew you were
 dreaming. Do not upgrade a night's result later because it feels more lucid in
 hindsight. The template is
-[examples/sample-dream-journal.md](../examples/sample-dream-journal.md).
+[DREAM-JOURNAL-TEMPLATE.md](DREAM-JOURNAL-TEMPLATE.md).
 
 ## Further reading
 
 The research background, sources and limits are in
-[research-and-limitations.md](research-and-limitations.md). The safety model is
-[RFC 0006](../rfc/0006-security-considerations.md).
+[RESEARCH.md](RESEARCH.md). The safety model is
+[RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md).
