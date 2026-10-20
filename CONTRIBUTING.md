@@ -16,7 +16,7 @@ the operator are out of scope.
      it;
    - `design`: a reasoned argument with no data behind it yet.
 
-   Most of this repository is `design`. That is acceptable as long as it says so.
+   Many project-specific choices remain `design`. That is acceptable when clearly labeled and paired with a testable plan.
 2. **No medical claims.** Do not suggest that dDNS treats insomnia, nightmares,
    anxiety or anything else. Do not suggest supplements, drugs, medication
    changes, sleep restriction, or silencing medical alarms. Pull requests that
@@ -24,7 +24,7 @@ the operator are out of scope.
 3. **No literal transmission.** Contributions must not describe dreams as
    receiving signals, packets or data from real networks or other people. The
    networking is an analogy. RFC 0001 says so, normatively.
-4. **Humor is welcome; accuracy is mandatory.** Every scientific statement must be either supported with a direct citation or explicitly designated as a hypothesis.
+4. **Accuracy and evidential discipline are mandatory.** Every scientific statement must be supported by an appropriate source or explicitly labeled as a hypothesis. Observations should use the published data dictionary and retain uncertainty.
 
 ## Submitting a new cue or dream sign
 
@@ -58,7 +58,7 @@ dreams. Their consent was not obtained at layer 7.
 
 ## Documentation changes
 
-- Keep the RFC voice: dry, precise, precise, measured language.
+- Keep the RFC voice: technical, precise, measured language.
 - Keep relative links working. From the repository root, this lists any broken
   internal link:
 
@@ -67,5 +67,5 @@ dreams. Their consent was not obtained at layer 7.
   ```
 
   then check each target exists relative to the file that links it.
-- No emoji, badges, screenshots or invented statistics.
+- No badges, invented statistics, or unverified empirical claims.
 - Markdown only. Do not add a package manager, build step or runtime.

@@ -54,8 +54,7 @@ module is installed.
 
 ## System status
 
-Illustrative. This is the protocol's illustrative status display, not output from
-any program.
+The following is a conceptual service-state display, not executable program output.
 
 ```text
 D-VISTA SERVICE STATUS                                  (illustrative)
@@ -70,16 +69,13 @@ $ d-vista start
 ERR_HOST_ACTIVE: the operator is still awake.
 ```
 
-The user must be unconscious for the interface to become available, then
-conscious of dreaming to obtain access. A dream alone is not a session:
+The operator must first fall asleep; lucidity is the later recognition that one is dreaming. A dream alone is not a session:
 successful boot does not imply interactive authentication.
 
 WARNING: attempts to inspect the service from the waking host terminate the
 session.
 
-## Implementation note
-
-This is the part where the documentation tells you what it has been doing.
+## Cognitive implementation
 
 D-VISTA is a lucid-dreaming practice. You have just installed it: reading the
 rule and rehearsing it is the whole installation, and the deployment target was
@@ -89,7 +85,7 @@ the mnemonic induction of lucid dreams, which trains a prospective memory: *next
 time X happens, I will notice I'm dreaming.* The only new part is the choice of
 X, and that part is untested.
 
-No program runs in your head. No Wi-Fi signal or GitHub traffic crosses the
+No independently executable application is installed in sleep. No Wi-Fi signal or GitHub traffic crosses the
 sleep boundary. If you dream of this repository being downloaded, that is your
 memory reconstructing what you read. Nothing here guarantees a lucid dream. The
 plain account is in [IMPLEMENTATION.md](IMPLEMENTATION.md);
@@ -100,8 +96,7 @@ the evidence and its limits are in
 
 The cue is not the router. The cue is **knowing that you have Wi-Fi**.
 
-Dreams are poor at rendering text, interfaces and precise hardware, but good at
-supplying assumed background knowledge: it's your house, the exam is today, the
+Dream imagery often contains unstable text and inferred contextual knowledge. A proposed advantage of a semantic Wi-Fi cue is that it can be represented as background knowledge: it's your house, the exam is today, the
 phone works. "There is Wi-Fi here" is a fact a dream can assert without drawing
 anything. That makes it portable across dream scenes and cheap to produce. The
 router, SSIDs, signal bars and terminal screens are optional scenery. The
@@ -177,7 +172,7 @@ The **Dalí key / Edison ball** technique is documented in [RFC 0007](RFC-0007-S
 | [PROTOCOL.md](PROTOCOL.md) | Operator walkthrough: ANCHOR → INCUBATE → NOTICE → CHECK → LUCID → ACT → RECORD |
 | [SPEC.md](SPEC.md) | Requirement language, state machine, service states, failure modes |
 | [BOOT-SEQUENCE.md](BOOT-SEQUENCE.md) | From repository to session: protocol analogy and actual action side by side |
-| [IMPLEMENTATION.md](IMPLEMENTATION.md) | The plain-language truth |
+| [IMPLEMENTATION.md](IMPLEMENTATION.md) | Literal cognitive implementation and scope |
 | [OPERATIONS.md](OPERATIONS.md) | Runtime operations: a system that runs only during downtime |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | Why an invisible capability makes a good cue |
 | [RFC 0001](RFC-0001-REALITY-PHASE-NAT.md) | Reality Phase-NAT |
@@ -192,7 +187,16 @@ The **Dalí key / Edison ball** technique is documented in [RFC 0007](RFC-0007-S
 | [RUNBOOK-NATURAL-AWAKENING.md](RUNBOOK-NATURAL-AWAKENING.md) | Optional rehearsal after an unplanned night waking |
 | [RUNBOOK-INCIDENT-RESPONSE.md](RUNBOOK-INCIDENT-RESPONSE.md) | Troubleshooting |
 | [GLOSSARY.md](GLOSSARY.md) | Terminology |
-| [RESEARCH.md](RESEARCH.md) | Research background and limits |
+| [RESEARCH.md](RESEARCH.md) | Research background and limitations |
+| [STUDY.md](STUDY.md) | Prospective DV-001 N-of-1 study design |
+| [MEASUREMENT.md](MEASUREMENT.md) | Outcome levels, objective verification and uncertainty |
+| [DATA-DICTIONARY.md](DATA-DICTIONARY.md) | Every observation field and missing-data codes |
+| [OBSERVATIONS.csv](OBSERVATIONS.csv) | Header-only data entry template |
+| [REPLICATION.md](REPLICATION.md) | Reproducibility and laboratory validation |
+| [CUE-TAXONOMY.md](CUE-TAXONOMY.md) | Wi-Fi representations and prospective-memory trigger |
+| [HARDWARE.md](HARDWARE.md) | WRT54GS specifications and controls |
+| [DATA-PROVENANCE.md](DATA-PROVENANCE.md) | Provenance, privacy, consent and publication |
+| [FAQ.md](FAQ.md) | Research, implementation and observability questions |
 | [SESSION-LOG-EXAMPLE.md](SESSION-LOG-EXAMPLE.md) | Illustrative session logs |
 | [DREAM-JOURNAL-TEMPLATE.md](DREAM-JOURNAL-TEMPLATE.md) | Journal template |
 
@@ -200,13 +204,13 @@ The **Dalí key / Edison ball** technique is documented in [RFC 0007](RFC-0007-S
 
 - There is no published research on Wi-Fi as a lucid-dream cue. This is a
   personal experiment built on techniques that do have research behind them.
-- Most nights will produce no session. Many will produce no recall. This is
-  normal operation, not a fault.
+- Lucid sessions may be rare and dream recall incomplete. Every scheduled night,
+  including missing recall, must be represented when reporting study results.
 - A dream that contains Wi-Fi is not a lucid dream. Only recognizing that you
   are dreaming counts.
 - The dream is permitted to assign an IP address without implementing DHCP. Do
   not treat anything a dream displays, says or computes as external fact.
-- Wake-on-LAN is not supported; Wake-on-Lucid may be attempted.
+- A physical Wi-Fi connection is neither required nor claimed. Induction success is determined by conscious dream recognition.
 
 ## Troubleshooting excerpt
 
@@ -219,9 +223,9 @@ SYMPTOM   Lay awake rehearsing for an hour.
 CAUSE     Operator polled reality so aggressively that the host stayed online.
 ACTION    Stop rehearsing. Sleep. The protocol resumes tomorrow.
 
-SYMPTOM   Router appeared in dream, on fire, speaking French.
-CAUSE     Split-horizon resolution. Expected.
-ACTION    Ask whether you are dreaming. You were.
+SYMPTOM   Router appeared in a dream; the operator remained nonlucid.
+CAUSE     Dream content incorporated the anchor but not the trained response.
+ACTION    Rehearse the recognition question rather than the hardware image.
 ```
 
 Full table: [RUNBOOK-INCIDENT-RESPONSE.md](RUNBOOK-INCIDENT-RESPONSE.md).

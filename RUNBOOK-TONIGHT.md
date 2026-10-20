@@ -12,7 +12,7 @@ require:    power, a network, an alarm, a screen, any software
 
 ## Deployment
 
-If you only have 90 seconds, run [BOOTSTRAP.md](../BOOTSTRAP.md) instead. This
+If you only have 90 seconds, run [BOOTSTRAP.md](BOOTSTRAP.md) instead. This
 runbook is the full version of the same installation. Either way, reading and
 rehearsing happen while you're awake: they are preparation, not the experiment.
 The experiment happens, or doesn't, while you sleep. Lucidity is not guaranteed.
@@ -20,7 +20,7 @@ The experiment happens, or doesn't, while you sleep. Lucidity is not guaranteed.
 ## About this runbook
 
 This is the whole protocol, written for a tired person. Follow it top to bottom.
-If you are too tired for all of it, do the [90-second bootstrap](../BOOTSTRAP.md)
+If you are too tired for all of it, do the [90-second bootstrap](BOOTSTRAP.md)
 instead. Either counts.
 
 ## Before you start

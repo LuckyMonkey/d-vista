@@ -6,6 +6,17 @@ operator.
 
 ## Unreleased
 
+### Changed — flat research release
+
+- Flattened documentation into a single root-level layout; RFCs, runbooks, and examples use descriptive filenames.
+- Retired internal agent build briefs from the published tree; Git history preserves them.
+- Updated contributor and coding-agent guidance for evidence-led experimental documentation.
+- Added prospective [DV-001 study protocol](STUDY.md), [measurement criteria](MEASUREMENT.md), and [data dictionary](DATA-DICTIONARY.md).
+- Added [replication and laboratory verification](REPLICATION.md), [Wi-Fi cue taxonomy](CUE-TAXONOMY.md), [hardware boundaries](HARDWARE.md), [data provenance](DATA-PROVENANCE.md), and [technical FAQ](FAQ.md).
+- Added empty [OBSERVATIONS.csv](OBSERVATIONS.csv) to accept future measurements; no sessions were fabricated.
+- Corrected internal links and clarified that sleep-only operation is compatible with externally verified experiments.
+
+
 ### Added — evidence and sleep-onset capture
 
 - [N1 Capture runbook](RUNBOOK-N1-CAPTURE.md): optional Dalí/Edison-inspired hypnagogic recording procedure; safe natural-awakening default and separate N1 reporting.

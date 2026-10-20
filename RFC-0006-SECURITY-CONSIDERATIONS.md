@@ -46,7 +46,7 @@ sleep, or that dream content can carry real information.
 
 **Controls.** Every document states that networking is an analogy. No physical
 network traffic crosses the sleep boundary. Contributions that claim otherwise
-are rejected ([CONTRIBUTING.md](../CONTRIBUTING.md)).
+are rejected ([CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ### 3.2 T2: Disrupted sleep
 
@@ -103,7 +103,7 @@ real terminal.
 **Threat.** The experiment turns bedtime into a test the operator is failing.
 
 **Controls.** A night with score 0, logged honestly, is a conformant run
-([SPEC.md](../SPEC.md), section 6). There is no streak to maintain.
+([SPEC.md](SPEC.md), section 6). There is no streak to maintain.
 
 ## 4. Stop conditions
 

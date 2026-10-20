@@ -25,7 +25,7 @@ it.
 
 ## What D-VISTA is not
 
-- **Not software.** Nothing is installed anywhere. "Installation" means you
+- **Not software.** No executable program is installed. "Installation" means you
   read an instruction and decided to remember it. You can uninstall it by not
   doing the rehearsal.
 - **Not a network.** No Wi-Fi signal, packet or GitHub traffic is involved
@@ -46,7 +46,7 @@ it.
 The software framing is a mnemonic device too. A rule that arrives as an
 "install procedure" with a status screen is more memorable than the same rule in
 a self-help paragraph, and memorability is the whole job of prospective memory.
-The illustration are load-bearing.
+The technical metaphors reinforce a reproducible cue-and-response sequence.
 
 ## Sleep comes first
 
@@ -74,5 +74,5 @@ hindsight. The template is
 ## Further reading
 
 The research background, sources and limits are in
-[research-and-limitations.md](RESEARCH.md). The safety model is
+[RESEARCH.md](RESEARCH.md). The safety model is
 [RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md).
