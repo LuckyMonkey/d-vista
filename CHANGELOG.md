@@ -6,6 +6,15 @@ operator.
 
 ## Unreleased
 
+### Added — evidence and sleep-onset capture
+
+- [N1 Capture runbook](runbooks/n1-capture.md): optional Dalí/Edison-inspired hypnagogic recording procedure; safe natural-awakening default and separate N1 reporting.
+- [RFC 0007](rfc/0007-sleep-onset-capture.md): sleep-onset capture interface independent of the REM-oriented lucid-dream handshake.
+- [Evidence register](docs/evidence-register.md): externally checked primary literature for MILD, N1 creativity, Dormio, TLR, and explicit distinction between supported findings and untested Wi-Fi hypotheses.
+- README research tracks and bootstrap link to the optional module.
+
+### Earlier unreleased changes
+
 Identity and experience refactor. No change to the practice itself.
 
 ### Changed
