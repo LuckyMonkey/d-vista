@@ -11,7 +11,7 @@ Lines are tagged by I/O class:
 - `[note]`: written on waking.
 
 ```text
-dDNS session log  v0.1.0
+D-VISTA session log  v0.1.0  (illustrative)
 operator:   example
 anchor:     WRT54GS, unpowered
 date:       (example)
@@ -57,7 +57,36 @@ date:       (example)
               expected. dream I/O does not reach real hosts.
 ```
 
-## Notes on the example
+## Second example: no session
+
+> **Illustrative.** Also fabricated. Included because most nights look like
+> this one, and it is still a conformant run.
+
+```text
+D-VISTA session log  (illustrative)
+
+23:05 [real]  BOOTSTRAP.md read. rule loaded. honest check: awake.
+              service: INSTALLED / DORMANT
+23:06 [real]  $ d-vista start
+              ERR_HOST_ACTIVE (expected). went to bed.
+23:07 [real]  host entering downtime. service: BOOT_PENDING
+
+~05:50 [dream] RUNTIME_AVAILABLE
+       [dream] kitchen. friend asks to borrow a charger.
+       [dream] router on the counter, all lights blinking.
+               cue rendered as scenery. rule not loaded. no check.
+               STALE_CACHE.
+       [dream] dream continued about a lost dog.
+
+06:40 [real]  CONNECTION_RESET_BY_PEER (woke naturally)
+06:41 [note]  "kitchen, router blinking, didn't think about it. dog."
+06:41 [note]  Wi-Fi appeared: Y. knew I was dreaming: N. action: N.
+06:41 [note]  score: 2
+06:42 [note]  next time: rehearse the question, not the router.
+              no network activity occurred; the router was unplugged all night.
+```
+
+## Notes on the examples
 
 - The cue arrived as **dialogue** ("the Wi-Fi is free here"), not as a router or
   an icon. This is the low-fidelity discovery described in
@@ -69,5 +98,5 @@ date:       (example)
   warning is not actionable.
 - The 07:12 check is optional, and included only to make the point. There is no
   need to audit real servers after a dream.
-- A realistic first week is likely to look more like the second entry in
-  [sample-dream-journal.md](sample-dream-journal.md).
+- A realistic first week is likely to look more like the second example above, or
+  the entries in [sample-dream-journal.md](sample-dream-journal.md).

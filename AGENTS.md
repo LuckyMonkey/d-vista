@@ -1,5 +1,5 @@
-# Codex Agent Instructions — dDNS
+# Codex Agent Instructions — D-VISTA
 
-Read [`RUNBOOK.md`](RUNBOOK.md) in its entirety **before modifying any files**. Implement every listed deliverable as a finished Markdown documentation project. Treat it as an execution brief, not a proposal. Preserve any existing user files. Avoid unnecessary software/dependencies. Do not push or publish. When finished, check all relative links and report what you built.
+This repository is **D-VISTA** (Dream Virtual Interface for State Transition and Awareness); **dDNS** is a named subsystem, not a deprecated name. The original build brief is [`meta/RUNBOOK.md`](meta/RUNBOOK.md) and the identity refactor brief is [`meta/REFACTOR-RUNBOOK.md`](meta/REFACTOR-RUNBOOK.md). Read both before modifying files. Keep the project Markdown-only and zero-dependency, preserve existing content, and check all relative links when finished. Do not push or publish without the owner's permission.
 
 Most important invariant: **“I have Wi-Fi” is a semantic dream cue, not a literal physical network or proof of being asleep.** WRT54GS is a physical memory anchor only; dream-state recognition is the success condition. Keep lucid-dream advice practical and sleep-safe.

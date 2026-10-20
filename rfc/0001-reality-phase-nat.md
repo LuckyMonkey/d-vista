@@ -1,7 +1,7 @@
 # RFC 0001 — Reality Phase-NAT
 
 ```text
-dDNS Working Group                                          LuckyMonkey
+D-VISTA Working Group                                       LuckyMonkey
 Document: dDNS-RFC-0001                                     October 2026
 Category: Experimental / Informational
 
@@ -11,6 +11,7 @@ Category: Experimental / Informational
 
 ## Status of This Memo
 
+Part of the D-VISTA document series. This memo specifies the Phase-NAT subsystem.
 This memo describes an experimental practice. It is not an Internet Standard.
 "RFC 0001" is an internal project document number and has no relationship to
 the IETF RFC series. Distribution of this memo is unlimited; its effectiveness

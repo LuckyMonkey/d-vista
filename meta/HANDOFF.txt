@@ -1,0 +1,17 @@
+Run this ONLY after the original dDNS agent has finished writing and exited.
+
+1. Copy REFACTOR-RUNBOOK.md into the ROOT of the existing dDNS repository.
+2. Optionally copy BOOTSTRAP-SAMPLE.md there as an editorial reference.
+3. Open Claude Code or Codex in that repository and paste:
+
+Read REFACTOR-RUNBOOK.md completely. This is a second-pass refactor of the dDNS
+repository already produced by a prior agent. Inspect the working tree and
+preserve its content. Implement the D-VISTA identity and documentation-as-installer
+design, keeping dDNS as a subsystem. Create and finish the three new Markdown
+documents, refactor the specified existing ones, keep all links valid, and
+validate the definition of done. The documentation must be an actual lucid-dream
+mnemonic practice concealed inside dead-serious system documentation, with
+explicit reality/safety limits. Don't stop at planning. Don't touch the remote
+or overwrite unrelated work. Report the touched files and tests run.
+
+No need for npm, React, TypeScript, Docker, or extra dependencies.

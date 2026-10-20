@@ -1,6 +1,7 @@
-# dDNS Protocol Walkthrough
+# D-VISTA Protocol Walkthrough
 
-This document describes the protocol from the operator's side: what you do, in
+This document describes the D-VISTA protocol, including its dDNS, Phase-NAT,
+dWLAN and LCP subsystems, from the operator's side: what you do, in
 what order, and what is actually happening in your head at each step. The
 normative definition is [SPEC.md](SPEC.md). The bedtime procedure is
 [runbooks/tonight.md](runbooks/tonight.md).
@@ -10,7 +11,12 @@ normative definition is [SPEC.md](SPEC.md). The bedtime procedure is
 ```text
 ANCHOR -> INCUBATE -> NOTICE -> CHECK -> LUCID -> ACT -> RECORD
   awake     awake      dream    dream    dream   dream   awake
+ |<- install ->|     |<---------- downtime ----------->|  log
+ DORMANT             RUNTIME_AVAILABLE    INTERACTIVE_SESSION
 ```
+
+ANCHOR and INCUBATE are the installation ([BOOTSTRAP.md](BOOTSTRAP.md)). Everything
+after that only happens while the host is asleep.
 
 Each stage below has two descriptions. **Analogy** is the networking framing.
 **Cognitive step** is what you are really doing. Where the two disagree, the

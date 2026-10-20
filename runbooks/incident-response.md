@@ -1,7 +1,7 @@
 # Runbook: Incident Response
 
 ```text
-Runbook:    dDNS-RB-INCIDENT-RESPONSE
+Runbook:    D-VISTA-RB-INCIDENT-RESPONSE
 Audience:   operator, the morning after
 Hours:      the helpdesk is staffed by you
 ```
@@ -20,22 +20,55 @@ losing sleep.
 
 ## Status codes
 
-### `NO_CARRIER` (INFO)
+### `ERR_HOST_ACTIVE` (INFO)
+
+- **Symptom.** You finished reading the docs, waited, and nothing happened.
+- **Cause.** The host is awake. D-VISTA cannot run on the machine where its
+source is being read. The installation succeeded; execution requires sleep.
+- **Action.** Go to bed at your usual time. Do not stay up to "test" it.
+
+### `INSTALL_SUCCEEDED_NO_SESSION` (INFO)
+
+- **Symptom.** You did the bootstrap and slept, and got no lucid dream, or no
+recall at all.
+- **Cause.** The expected outcome on most nights. Rehearsal raises the odds; it
+does not guarantee anything.
+- **Action.** Log the night honestly, even as a 0. Repeat on nights you feel like
+it. A few nights of practice is a fairer test than one.
+
+### `NO_SIGNAL` (INFO)
 
 - **Symptom.** No dreams recalled at all.
 - **Cause.** Normal. Many nights have no recall, especially at first.
 - **Action.** Keep paper by the bed. Lie still for a moment on waking before
 moving. Recall tends to improve with regular journaling.
 
+### `NO_CARRIER` (INFO)
+
+- **Symptom.** You recalled dreams, but the wireless concept never appeared in
+them.
+- **Cause.** Incubation is partial. The dream didn't produce the cue.
+- **Action.** Emphasize scenario C (no router, just knowing there's Wi-Fi)
+during rehearsal, so the cue doesn't depend on the dream drawing anything.
+
 ### `NXDOMAIN` (INFO)
 
-- **Symptom.** You recalled dreams, but Wi-Fi never came up. Or you were lucid and
-couldn't produce the thing you planned (no keyboard, no door).
+- **Symptom.** You were lucid and couldn't produce the thing you planned (no
+keyboard, no door).
 - **Cause.** The dream didn't produce the concept. Retrieval failure, not a
 signal of anything.
-- **Action.** For a missing cue: emphasize scenario C (no router, just knowing)
-during rehearsal. For a missing payload: you were lucid, which is the success
-condition. Look around instead.
+- **Action.** You were lucid, which is the success condition. Look around
+instead.
+
+### `STALE_CACHE` (WARN)
+
+- **Symptom.** The router, a network or the docs appeared in the dream, but the
+rule didn't come with them. You saw the WRT54GS and thought nothing of it.
+- **Cause.** The dream reconstructed the scenery from memory and dropped the
+instruction (see [Deferred Semantic Reconstruction](../docs/boot-sequence.md#3-deferred-semantic-reconstruction-dsr)).
+The anchor was rehearsed more strongly than the rule.
+- **Action.** Spend less time on the router and more on the question. The
+router is only the installation medium.
 
 ### `CONNECTION_REFUSED` (WARN)
 
@@ -63,10 +96,12 @@ intention into plot.
 
 ### `CONNECTION_RESET_BY_PEER` (INFO)
 
-- **Symptom.** You became lucid and woke up almost immediately.
-- **Cause.** Commonly, excitement.
-- **Action.** Score 3. Next time, spend the first moments just observing calmly
-before doing anything.
+- **Symptom.** The operator woke. Often right after becoming lucid.
+- **Cause.** Waking ends every session. Waking right after recognition is
+commonly attributed to excitement.
+- **Action.** Log immediately. If you were lucid, score 3 even if it lasted
+seconds. Next time, spend the first moments just observing calmly before doing
+anything.
 
 ### `PACKET_LOSS` (INFO)
 

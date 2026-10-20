@@ -1,22 +1,23 @@
 # RFC 0004 — Lucidity Handshake
 
 ```text
-dDNS Working Group                                          LuckyMonkey
+D-VISTA Working Group                                       LuckyMonkey
 Document: dDNS-RFC-0004                                     October 2026
 Category: Experimental / Informational
 
-                         Lucidity Handshake:
+                   Lucidity Handshake (LCP):
           Cue, Recall, Check and Recognition in Dream-State Cognition
 ```
 
 ## Status of This Memo
 
+Part of the D-VISTA document series. This memo specifies LCP, the Lucidity Control Protocol.
 Experimental. Internal project document number; not an IETF RFC. Session
 establishment is best-effort.
 
 ## Abstract
 
-This document defines the algorithm at the center of dDNS: the four-step
+This document defines LCP, the algorithm at the center of D-VISTA: the four-step
 sequence that turns noticing Wi-Fi in a dream into recognizing the dream. Only
 the final step counts as success.
 
@@ -98,6 +99,7 @@ This also keeps waking checks safe: because the answer while awake is honestly
 | Cached response | The question was asked; "awake" was returned without looking. | Rehearse checking the situation, not just saying the words. |
 | Rationalized anomaly | Something was off; the dream explained it away. | During rehearsal, practice saying "that doesn't fit, so this is a dream." |
 | Incorporated cue | The dream turned the intention into plot: you dream of explaining dDNS to someone. | None needed; it shows incubation working. Continue. |
+| Stale cache | The router or the docs appeared; the rule did not. | Rehearse the question more than the anchor. See `STALE_CACHE` in [incident response](../runbooks/incident-response.md#stale_cache-warn). |
 | Brief session | Recognition happened; you woke seconds later. | Counts as success. See [RFC 0005](0005-session-persistence.md). |
 
 The incorporated-cue case deserves emphasis. An ordinary, non-lucid dream full

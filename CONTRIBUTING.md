@@ -1,6 +1,10 @@
-# Contributing to dDNS
+# Contributing to D-VISTA
 
-dDNS accepts contributions in three categories: new cues and dream signs, bug
+D-VISTA is the project's name. **dDNS** (Dream Domain Name System) was its
+first name and remains a named subsystem: symbolic resolution inside dreams. Do
+not rename dDNS references to D-VISTA; they refer to different layers.
+
+D-VISTA accepts contributions in three categories: new cues and dream signs, bug
 reports against the protocol, and corrections to the documentation. Patches to
 the operator are out of scope.
 

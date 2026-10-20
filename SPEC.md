@@ -1,7 +1,7 @@
-# dDNS Specification
+# D-VISTA Specification
 
 ```text
-Document:  dDNS-SPEC
+Document:  D-VISTA-SPEC
 Version:   0.1.0
 Status:    Experimental / Informational
 Scope:     Operator behavior before, during and after one sleep period
@@ -17,7 +17,8 @@ this document are used as follows:
 - **SHOULD / SHOULD NOT**: recommended. Deviate when you have a reason.
 - **MAY**: optional. Neither helps nor hurts conformance.
 
-These words are a documentation convention borrowed from network standards. They
+These words are a documentation convention borrowed from network standards, and
+the protocol they define is a fiction wrapped around a real practice. They
 describe how this protocol is defined. They do **not** describe scientific
 certainty about how sleep or dreaming works. Nothing in this specification is
 guaranteed to produce a lucid dream.
@@ -31,6 +32,8 @@ guaranteed to produce a lucid dream.
 - **Handler**: the rehearsed response "Am I dreaming?" followed by a genuine
   check of the current state.
 - **Resolver**: the operator's mind, in whichever state it is currently running.
+- **Host**: the operator's waking self. The host is "online" when awake.
+- **Service**: D-VISTA, available only while the host is in downtime (asleep).
 
 ## 3. Requirements
 
@@ -119,7 +122,25 @@ Additional transitions, not shown in the main table:
 | `RECALL` | nothing remembered | `LOGGED` with score 0 |
 | `LOGGED` | next night | `AWAKE` |
 
-### 4.1 Runtime guarantees
+### 4.1 Service states
+
+The operator states above are the canonical state machine. D-VISTA also
+reports a **service state**, which is the same thing seen from the runtime's
+side. They map one to one; there is no second machine.
+
+| Operator state | Host | Service state |
+| --- | --- | --- |
+| `AWAKE` (after rehearsal) | online | `INSTALLED` / `DORMANT` |
+| `SLEEP_ONSET` | entering downtime | `BOOT_PENDING` |
+| `DREAMING`, `CHECKING` | downtime | `RUNTIME_AVAILABLE` |
+| `LUCID` | downtime | `INTERACTIVE_SESSION` |
+| `RECALL`, `LOGGED` | online | `DISCONNECTED` |
+
+Starting the service while the host is online returns `ERR_HOST_ACTIVE`. This is
+not a fault. `RUNTIME_AVAILABLE` does not imply `INTERACTIVE_SESSION`: a dream
+is not a lucid dream.
+
+### 4.2 Runtime guarantees
 
 There is no runtime guarantee that the transition `DREAMING -> CHECKING` occurs.
 On most nights it will not. There is likewise no guarantee that `CHECKING`
@@ -144,7 +165,7 @@ Operational responses are in
 
 ## 6. Conformance
 
-An operator is conformant with dDNS 0.1.0 if they rehearse the cue and handler
+An operator is conformant with D-VISTA if they rehearse the cue and handler
 with an anchor while awake, sleep normally, and record the outcome honestly.
 Achieving lucidity is not a conformance requirement. A night with a score of
 zero, logged accurately, is a fully conformant run.

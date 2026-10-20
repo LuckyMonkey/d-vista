@@ -1,7 +1,7 @@
 # Runbook: Natural Awakening
 
 ```text
-Runbook:    dDNS-RB-NATURAL-AWAKENING
+Runbook:    D-VISTA-RB-NATURAL-AWAKENING
 Duration:   1-3 minutes, then sleep
 Trigger:    you woke up during the night on your own
 Optional:   yes, entirely

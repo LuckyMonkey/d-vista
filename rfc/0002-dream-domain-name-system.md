@@ -1,7 +1,7 @@
 # RFC 0002 — Dream Domain Name System
 
 ```text
-dDNS Working Group                                          LuckyMonkey
+D-VISTA Working Group                                       LuckyMonkey
 Document: dDNS-RFC-0002                                     October 2026
 Category: Experimental / Informational
 
@@ -11,6 +11,7 @@ Category: Experimental / Informational
 
 ## Status of This Memo
 
+Part of the D-VISTA document series. This memo specifies the dDNS subsystem, the symbolic resolver at the core of D-VISTA.
 Experimental. Internal project document number; not an IETF RFC. This memo
 defines no wire format, no port, no record types registered anywhere, and no
 queries that leave the operator's head.

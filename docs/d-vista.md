@@ -1,36 +1,41 @@
 # D-VISTA Runtime Operations
 
 ```text
-D-VISTA SYSTEM STATUS
--------------------------------------
-Operator awake:        OFFLINE
-Operator asleep:       BOOTING
-REM detected:          ONLINE
-Lucidity established:  SESSION UP
-Operator awakened:     CONNECTION LOST
--------------------------------------
+D-VISTA SERVICE STATUS                         (illustrative)
+-------------------------------------------------------------
+Host awake:            ONLINE     service INSTALLED / DORMANT
+Host falling asleep:   DOWNTIME   service BOOT_PENDING
+Host dreaming:         DOWNTIME   service RUNTIME_AVAILABLE
+Dream recognized:      DOWNTIME   service INTERACTIVE_SESSION
+Host woke:             ONLINE     service DISCONNECTED
+-------------------------------------------------------------
 ```
 
-D-VISTA is the runtime environment that hosts dDNS. It has one unusual
+D-VISTA (Dream Virtual Interface for State Transition and Awareness) is the
+runtime that hosts dDNS and its sibling subsystems. It has one unusual
 operational property:
 
-> **D-VISTA requires the operator to be offline before establishing a
-> connection.**
+> **The host must enter downtime before the service can become available.**
 
-During normal operating hours the system is unavailable. When the operator
-loses consciousness, the system boots. Sleep is not downtime. Sleep is the
-production environment.
+Two machines' worth of vocabulary meet here, so this document is careful about
+whose uptime it means:
+
+- **Host** = the operator's waking self. Host uptime is being awake.
+- **Service** = D-VISTA. Service availability is dreaming.
+
+Host downtime is the service's operating window. Sleep is not downtime for the
+service. Sleep is the production environment.
 
 ## 1. Installation
 
 ```text
-D-VISTA INSTALLATION COMPLETE
+D-VISTA INSTALLATION COMPLETE                  (illustrative)
 
 Runtime:              Biological
 Installation target:  Prospective memory
 Execution state:      DORMANT
 Required downtime:    Sleep
-Network interface:    Conceptual WLAN
+Network interface:    Conceptual WLAN (dWLAN)
 Reference hardware:   Linksys WRT54GS
 
 NOTICE:
@@ -38,43 +43,40 @@ The software cannot be executed from this terminal.
 The operator must enter downtime to continue.
 ```
 
-There is no installer. Installation is the waking rehearsal in
-[runbooks/tonight.md](../runbooks/tonight.md). The banner above is illustrative;
-no command prints it.
+There is no installer program. Installation is reading
+[BOOTSTRAP.md](../BOOTSTRAP.md) and doing what it says. No command prints the
+banner above.
 
 ## 2. Operational vocabulary
 
-Ordinary operations terms, inverted for a system whose production window is the
-night. The left column is the joke; the right column is what it means in
-practice.
-
 | Term | D-VISTA meaning | In plain terms |
 | --- | --- | --- |
-| Scheduled downtime | Bedtime | Go to bed at your usual time. |
+| Scheduled host downtime | Bedtime | Go to bed at your usual time. |
 | Cold boot | Falling asleep | Unobserved by design. Do not try to watch it. |
-| Uptime | Time spent dreaming | Most dreaming happens in REM sleep, more of it later in the night. |
-| Unplanned uptime | Insomnia | The protocol's worst outage. Stop rehearsing and rest. |
-| User authentication | Reality check | An honest look at the situation. Awake, it returns "awake". |
-| Session established | Lucidity | Knowing you are dreaming. Control is not required. |
+| Service uptime | Time spent dreaming | Dreams occur throughout sleep; REM periods, longer later in the night, are especially dream-rich. |
+| Unplanned host uptime | Insomnia | The worst outage. Stop rehearsing and rest. |
+| Authentication | Reality check | An honest look at the situation. Awake, it returns "awake". |
+| Interactive session | Lucidity | Knowing you are dreaming. Control is not required. |
 | Kernel panic | Nightmare | Look away, remind yourself it is a dream, or wake gently. |
 | Session timeout | Waking up | Log immediately. The cache expires in minutes. |
 | System restore | Falling back asleep | Do it. Recall must not turn into staying up. |
-| Monitoring | Dream journal | The only monitoring that does not take the system down. |
+| Monitoring | Dream journal | The only monitoring that does not take the service down. |
 
 ## 3. Observability
 
-Warning: attempting to observe system operation may terminate the session.
+WARNING: attempts to inspect the service from the waking host terminate the
+session.
 
 This is accurate. Checking whether you are falling asleep tends to keep you
-awake, and excitement during a lucid dream tends to wake you up. D-VISTA is
+awake, and excitement during a lucid dream tends to wake you. D-VISTA is
 therefore monitored only after the fact, through the journal. There are no live
-dashboards, and none should be built. A device that watches the operator sleep
-is out of scope for version 0.1.0 ([research-and-limitations.md](research-and-limitations.md),
+dashboards and none should be built. Devices that watch the operator sleep are
+out of scope ([research-and-limitations.md](research-and-limitations.md),
 section 4).
 
 ## 4. Service level
 
-- **Availability:** nightly, during downtime only.
+- **Availability:** nightly, during host downtime only.
 - **Guarantee:** none. Consciousness discovery is best-effort.
 - **Maintenance window:** the day. Rehearsal happens here.
 - **Escalation:** stop the protocol and sleep normally

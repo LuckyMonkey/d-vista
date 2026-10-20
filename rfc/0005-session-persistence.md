@@ -1,7 +1,7 @@
 # RFC 0005 — Session Persistence and Recall
 
 ```text
-dDNS Working Group                                          LuckyMonkey
+D-VISTA Working Group                                       LuckyMonkey
 Document: dDNS-RFC-0005                                     October 2026
 Category: Experimental / Informational
 
@@ -11,6 +11,7 @@ Category: Experimental / Informational
 
 ## Status of This Memo
 
+Part of the D-VISTA document series. This memo specifies session handling for the D-VISTA interactive session.
 Experimental. Internal project document number; not an IETF RFC. Sessions are
 not resumable.
 

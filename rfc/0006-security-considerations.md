@@ -1,29 +1,30 @@
 # RFC 0006 — Security Considerations
 
 ```text
-dDNS Working Group                                          LuckyMonkey
+D-VISTA Working Group                                       LuckyMonkey
 Document: dDNS-RFC-0006                                     October 2026
 Category: Experimental / Informational
 
-                Security Considerations for the Dream
-                     Domain Name System (dDNS)
+                 Security Considerations for D-VISTA
+               and the Dream Domain Name System (dDNS)
 ```
 
 ## Status of This Memo
 
+Part of the D-VISTA document series. This memo specifies the security model for all D-VISTA subsystems.
 Experimental. Internal project document number; not an IETF RFC. This memo
 is normative for every other document in the series. Where it conflicts with
 them, it wins.
 
 ## Abstract
 
-dDNS has no network attack surface, because it has no network. Its risks are to
+D-VISTA has no network attack surface, because it has no network. Its risks are to
 sleep, to mood, and to the operator's sense of what is real. This document lists
 those risks and the controls that address them.
 
 ## 1. Scope
 
-All dDNS documents, runbooks and examples, and any operator running them.
+All D-VISTA and dDNS documents, runbooks and examples, and any operator running them.
 
 ## 2. Assets
 

@@ -47,7 +47,7 @@ Laboratory studies have presented sounds, lights or other signals during REM
 sleep, sometimes after pre-sleep training that associates those signals with
 becoming lucid, and found that this can sometimes increase lucidity or allow
 communication with a lucid dreamer. These are controlled studies with
-researchers monitoring sleep. dDNS 0.1.0 does **not** present anything during
+researchers monitoring sleep. D-VISTA 0.1.0 does **not** present anything during
 sleep. The cue is internal: it relies entirely on memory.
 
 ## 5. What is untested
@@ -89,7 +89,7 @@ consequences:
 
 ## 8. Sleep health boundaries
 
-Sleep is more important than this experiment. dDNS 0.1.0:
+Sleep is more important than this experiment. D-VISTA 0.1.0:
 
 - does not use alarms to interrupt sleep;
 - does not ask you to stay awake or shorten sleep;

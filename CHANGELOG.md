@@ -4,6 +4,31 @@ All notable changes to this protocol are recorded here. Versions follow
 semantic versioning, applied to documentation and, by extension, to the
 operator.
 
+## Unreleased
+
+Identity and experience refactor. No change to the practice itself.
+
+### Changed
+
+- Project renamed for display to **D-VISTA** (Dream Virtual Interface for State
+  Transition and Awareness). dDNS is retained as a subsystem, alongside
+  Phase-NAT, dWLAN and LCP.
+- README rewritten so the documentation is the installation medium:
+  installation, illustrative status, then the implementation note.
+- SPEC: service states mapped onto the existing state machine.
+- Incident response: `ERR_HOST_ACTIVE`, `INSTALL_SUCCEEDED_NO_SESSION`,
+  `STALE_CACHE`; `NO_CARRIER` now means the cue was absent, and `NO_SIGNAL`
+  means no recall.
+- Agent build briefs moved to `meta/`.
+
+### Added
+
+- [BOOTSTRAP.md](BOOTSTRAP.md): the 90-second installer.
+- [docs/boot-sequence.md](docs/boot-sequence.md): fiction and actual action side
+  by side; Deferred Semantic Reconstruction (an invented project term).
+- [docs/implementation-notes.md](docs/implementation-notes.md): the plain
+  account.
+
 ## 0.1.0 — 2026-10-20
 
 Initial experimental specification.

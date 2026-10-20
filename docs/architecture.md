@@ -107,10 +107,35 @@ answer "awake" without checking. The handler exists to force a fresh lookup.
 Split-horizon resolution is expected; different states may resolve the same
 symbol differently.
 
-## 4. Components that are deliberately absent
+## 4. Deployment view
+
+D-VISTA's deployment target is human memory, and its operating window is the
+host's downtime.
+
+```text
+  build artifact      deployment target          runtime
+  --------------      -----------------          -------
+  Markdown text  -->  prospective memory   -->   dream-state cognition
+  (read awake)        ("when Wi-Fi, check")      (asleep; best-effort)
+```
+
+Two things must be kept apart:
+
+| What the dream assumes | What external reality contains |
+| --- | --- |
+| "There is Wi-Fi here." | Whatever is actually in the bedroom, which is irrelevant. |
+| "I just downloaded the repo." | No download took place. |
+| "This terminal is connected to fridge." | No terminal, no connection. |
+| "I'm awake." | Usually wrong. That's the point of checking. |
+
+Ambient connectivity works as a **semantic dream sign**: a fact the dream
+supplies about the situation, not an object in it. The first column is where the
+protocol operates. The second column never changes in response to it.
+
+## 5. Components that are deliberately absent
 
 - **No device in the bedroom.** There is no audio, light or haptic cueing during
-  sleep. Some research setups do this under controlled conditions; dDNS 0.1.0
+  sleep. Some research setups do this under controlled conditions; D-VISTA 0.1.0
   does not.
 - **No alarms.** No wake-back-to-bed schedule. See
   [research-and-limitations.md](research-and-limitations.md).

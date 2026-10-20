@@ -1,7 +1,7 @@
 # RFC 0003 — Conceptual WLAN Discovery
 
 ```text
-dDNS Working Group                                          LuckyMonkey
+D-VISTA Working Group                                       LuckyMonkey
 Document: dDNS-RFC-0003                                     October 2026
 Category: Experimental / Informational
 
@@ -11,12 +11,13 @@ Category: Experimental / Informational
 
 ## Status of This Memo
 
+Part of the D-VISTA document series. This memo specifies the dWLAN subsystem.
 Experimental. Internal project document number; not an IETF RFC. No radio
 frequencies are allocated by this document.
 
 ## Abstract
 
-This document defines the cue used by dDNS. The cue is not a router, a network
+This document defines dWLAN, the cue used by D-VISTA. The cue is not a router, a network
 name, an icon or a screen. The cue is the fact that **wireless connectivity is
 available**. That fact can be present in a dream with no imagery at all, as
 contextual knowledge, which makes it unusually cheap for a dream to produce.
