@@ -151,6 +151,17 @@ generation of administrators who met wireless networking at `192.168.1.1`.
 | Location at night | Somewhere safe and dry. Not in the bed. |
 | Ownership | Optional. Any object you associate with wireless works. |
 
+## Experimental research tracks
+
+D-VISTA separates two different goals, because their supporting evidence is not interchangeable:
+
+| Track | What it attempts | What counts as success |
+| --- | --- | --- |
+| **dWLAN → LCP (core)** | A Wi-Fi awareness cue brings back the intention to recognize a dream | The operator **knows they are dreaming while dreaming** |
+| **N1 Capture (optional)** | Retrieve a brief hypnagogic image, phrase, or idea near sleep onset | An immediate, honest **fragment record**; lucidity is not implied |
+
+The **Dalí key / Edison ball** technique is documented in [RFC 0007](rfc/0007-sleep-onset-capture.md) and the [N1 Capture runbook](runbooks/n1-capture.md), with a sleep-preserving default instead of mandatory metal objects or nighttime awakenings. The [evidence register](docs/evidence-register.md) links to published research and labels direct support, preliminary findings, and project hypotheses.
+
 ## Documentation
 
 | Document | Purpose |
@@ -169,6 +180,9 @@ generation of administrators who met wireless networking at `192.168.1.1`.
 | [RFC 0004](rfc/0004-lucidity-handshake.md) | Lucidity Handshake (LCP) |
 | [RFC 0005](rfc/0005-session-persistence.md) | Session Persistence and Recall |
 | [RFC 0006](rfc/0006-security-considerations.md) | Security Considerations |
+| [RFC 0007](rfc/0007-sleep-onset-capture.md) | Optional Sleep-Onset Capture Interface (N1) |
+| [runbooks/n1-capture.md](runbooks/n1-capture.md) | Daytime hypnagogic capture; Dalí/Edison historical context |
+| [docs/evidence-register.md](docs/evidence-register.md) | Primary studies, findings, and explicit evidence limits |
 | [runbooks/natural-awakening.md](runbooks/natural-awakening.md) | Optional rehearsal after an unplanned night waking |
 | [runbooks/incident-response.md](runbooks/incident-response.md) | Troubleshooting |
 | [docs/glossary.md](docs/glossary.md) | Terminology |
