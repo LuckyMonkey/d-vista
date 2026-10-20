@@ -57,7 +57,7 @@ installation.
 
 ## Optional extension (separate from installation)
 
-An experimental [N1 Capture runbook](runbooks/n1-capture.md) documents the historical Dalí key / Edison ball approach to retrieving fleeting sleep-onset imagery. It is **not necessary for D-VISTA installation** and has **not been shown to reliably induce lucidity**. The core installation remains the Wi-Fi prospective-memory rule and normal sleep. Evidence is catalogued in [docs/evidence-register.md](docs/evidence-register.md).
+An experimental [N1 Capture runbook](RUNBOOK-N1-CAPTURE.md) documents the historical Dalí key / Edison ball approach to retrieving fleeting sleep-onset imagery. It is **not necessary for D-VISTA installation** and has **not been shown to reliably induce lucidity**. The core installation remains the Wi-Fi prospective-memory rule and normal sleep. Evidence is catalogued in [EVIDENCE.md](EVIDENCE.md).
 
 ## Operator note
 
@@ -69,8 +69,8 @@ network traffic crosses the sleep boundary.
 Nothing is installed in your brain except what you deliberately chose to
 remember. Do not cut sleep short, disable medical alerts, or treat anything a
 dream shows you as information from an outside system. The plain-language
-explanation is in [docs/implementation-notes.md](docs/implementation-notes.md);
-the full bedtime procedure is [runbooks/tonight.md](runbooks/tonight.md).
+explanation is in [IMPLEMENTATION.md](IMPLEMENTATION.md);
+the full bedtime procedure is [RUNBOOK-TONIGHT.md](RUNBOOK-TONIGHT.md).
 
 ```text
 INSTALLATION COMPLETE.

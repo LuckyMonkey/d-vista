@@ -54,7 +54,7 @@ module is installed.
 
 ## System status
 
-Illustrative. This is the protocol's fictional status display, not output from
+Illustrative. This is the protocol's illustrative status display, not output from
 any program.
 
 ```text
@@ -92,9 +92,9 @@ X, and that part is untested.
 No program runs in your head. No Wi-Fi signal or GitHub traffic crosses the
 sleep boundary. If you dream of this repository being downloaded, that is your
 memory reconstructing what you read. Nothing here guarantees a lucid dream. The
-plain account is in [docs/implementation-notes.md](docs/implementation-notes.md);
+plain account is in [IMPLEMENTATION.md](IMPLEMENTATION.md);
 the evidence and its limits are in
-[docs/research-and-limitations.md](docs/research-and-limitations.md).
+[RESEARCH.md](RESEARCH.md).
 
 ## Why Wi-Fi
 
@@ -106,7 +106,7 @@ phone works. "There is Wi-Fi here" is a fact a dream can assert without drawing
 anything. That makes it portable across dream scenes and cheap to produce. The
 router, SSIDs, signal bars and terminal screens are optional scenery. The
 network is not the router. The network is the recognition that connectivity is
-available. Design rationale: [docs/architecture.md](docs/architecture.md).
+available. Design rationale: [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## Architecture
 
@@ -151,6 +151,12 @@ generation of administrators who met wireless networking at `192.168.1.1`.
 | Location at night | Somewhere safe and dry. Not in the bed. |
 | Ownership | Optional. Any object you associate with wireless works. |
 
+## Research program
+
+D-VISTA is a testable prospective-memory procedure, structured observation plan, and technical specification. The Wi-Fi cue concerns **awareness of a concept**, not radio-frequency interaction with sleeping cognition. The current protocol relies on self-report; sleep-laboratory methods permit independent verification of certain lucid REM events. See [STUDY.md](STUDY.md), [MEASUREMENT.md](MEASUREMENT.md), and [DATA-DICTIONARY.md](DATA-DICTIONARY.md).
+
+No D-VISTA intervention outcomes are claimed yet. [OBSERVATIONS.csv](OBSERVATIONS.csv) is a header-only schema, not observed data.
+
 ## Experimental research tracks
 
 D-VISTA separates two different goals, because their supporting evidence is not interchangeable:
@@ -160,35 +166,35 @@ D-VISTA separates two different goals, because their supporting evidence is not 
 | **dWLAN → LCP (core)** | A Wi-Fi awareness cue brings back the intention to recognize a dream | The operator **knows they are dreaming while dreaming** |
 | **N1 Capture (optional)** | Retrieve a brief hypnagogic image, phrase, or idea near sleep onset | An immediate, honest **fragment record**; lucidity is not implied |
 
-The **Dalí key / Edison ball** technique is documented in [RFC 0007](rfc/0007-sleep-onset-capture.md) and the [N1 Capture runbook](runbooks/n1-capture.md), with a sleep-preserving default instead of mandatory metal objects or nighttime awakenings. The [evidence register](docs/evidence-register.md) links to published research and labels direct support, preliminary findings, and project hypotheses.
+The **Dalí key / Edison ball** technique is documented in [RFC 0007](RFC-0007-SLEEP-ONSET-CAPTURE.md) and the [N1 Capture runbook](RUNBOOK-N1-CAPTURE.md), with a sleep-preserving default instead of mandatory metal objects or nighttime awakenings. The [evidence register](EVIDENCE.md) links to published research and labels direct support, preliminary findings, and project hypotheses.
 
 ## Documentation
 
 | Document | Purpose |
 | --- | --- |
 | [BOOTSTRAP.md](BOOTSTRAP.md) | The installer. Start here. |
-| [runbooks/tonight.md](runbooks/tonight.md) | The full 7–10 minute bedtime procedure |
+| [RUNBOOK-TONIGHT.md](RUNBOOK-TONIGHT.md) | The full 7–10 minute bedtime procedure |
 | [PROTOCOL.md](PROTOCOL.md) | Operator walkthrough: ANCHOR → INCUBATE → NOTICE → CHECK → LUCID → ACT → RECORD |
 | [SPEC.md](SPEC.md) | Requirement language, state machine, service states, failure modes |
-| [docs/boot-sequence.md](docs/boot-sequence.md) | From repository to session: fiction and actual action side by side |
-| [docs/implementation-notes.md](docs/implementation-notes.md) | The plain-language truth |
-| [docs/d-vista.md](docs/d-vista.md) | Runtime operations: a system that runs only during downtime |
-| [docs/architecture.md](docs/architecture.md) | Why an invisible capability makes a good cue |
-| [RFC 0001](rfc/0001-reality-phase-nat.md) | Reality Phase-NAT |
-| [RFC 0002](rfc/0002-dream-domain-name-system.md) | Dream Domain Name System (dDNS) |
-| [RFC 0003](rfc/0003-conceptual-wlan-discovery.md) | Conceptual WLAN Discovery (dWLAN) |
-| [RFC 0004](rfc/0004-lucidity-handshake.md) | Lucidity Handshake (LCP) |
-| [RFC 0005](rfc/0005-session-persistence.md) | Session Persistence and Recall |
-| [RFC 0006](rfc/0006-security-considerations.md) | Security Considerations |
-| [RFC 0007](rfc/0007-sleep-onset-capture.md) | Optional Sleep-Onset Capture Interface (N1) |
-| [runbooks/n1-capture.md](runbooks/n1-capture.md) | Daytime hypnagogic capture; Dalí/Edison historical context |
-| [docs/evidence-register.md](docs/evidence-register.md) | Primary studies, findings, and explicit evidence limits |
-| [runbooks/natural-awakening.md](runbooks/natural-awakening.md) | Optional rehearsal after an unplanned night waking |
-| [runbooks/incident-response.md](runbooks/incident-response.md) | Troubleshooting |
-| [docs/glossary.md](docs/glossary.md) | Terminology |
-| [docs/research-and-limitations.md](docs/research-and-limitations.md) | Research background and limits |
-| [examples/sample-session-log.md](examples/sample-session-log.md) | Illustrative session logs |
-| [examples/sample-dream-journal.md](examples/sample-dream-journal.md) | Journal template |
+| [BOOT-SEQUENCE.md](BOOT-SEQUENCE.md) | From repository to session: protocol analogy and actual action side by side |
+| [IMPLEMENTATION.md](IMPLEMENTATION.md) | The plain-language truth |
+| [OPERATIONS.md](OPERATIONS.md) | Runtime operations: a system that runs only during downtime |
+| [ARCHITECTURE.md](ARCHITECTURE.md) | Why an invisible capability makes a good cue |
+| [RFC 0001](RFC-0001-REALITY-PHASE-NAT.md) | Reality Phase-NAT |
+| [RFC 0002](RFC-0002-DREAM-DOMAIN-NAME-SYSTEM.md) | Dream Domain Name System (dDNS) |
+| [RFC 0003](RFC-0003-CONCEPTUAL-WLAN-DISCOVERY.md) | Conceptual WLAN Discovery (dWLAN) |
+| [RFC 0004](RFC-0004-LUCIDITY-HANDSHAKE.md) | Lucidity Handshake (LCP) |
+| [RFC 0005](RFC-0005-SESSION-PERSISTENCE.md) | Session Persistence and Recall |
+| [RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md) | Security Considerations |
+| [RFC 0007](RFC-0007-SLEEP-ONSET-CAPTURE.md) | Optional Sleep-Onset Capture Interface (N1) |
+| [RUNBOOK-N1-CAPTURE.md](RUNBOOK-N1-CAPTURE.md) | Daytime hypnagogic capture; Dalí/Edison historical context |
+| [EVIDENCE.md](EVIDENCE.md) | Primary studies, findings, and explicit evidence limits |
+| [RUNBOOK-NATURAL-AWAKENING.md](RUNBOOK-NATURAL-AWAKENING.md) | Optional rehearsal after an unplanned night waking |
+| [RUNBOOK-INCIDENT-RESPONSE.md](RUNBOOK-INCIDENT-RESPONSE.md) | Troubleshooting |
+| [GLOSSARY.md](GLOSSARY.md) | Terminology |
+| [RESEARCH.md](RESEARCH.md) | Research background and limits |
+| [SESSION-LOG-EXAMPLE.md](SESSION-LOG-EXAMPLE.md) | Illustrative session logs |
+| [DREAM-JOURNAL-TEMPLATE.md](DREAM-JOURNAL-TEMPLATE.md) | Journal template |
 
 ## Known limitations
 
@@ -218,7 +224,7 @@ CAUSE     Split-horizon resolution. Expected.
 ACTION    Ask whether you are dreaming. You were.
 ```
 
-Full table: [runbooks/incident-response.md](runbooks/incident-response.md).
+Full table: [RUNBOOK-INCIDENT-RESPONSE.md](RUNBOOK-INCIDENT-RESPONSE.md).
 
 ## Safety
 
@@ -227,12 +233,12 @@ alarm to interrupt sleep, stay awake, take anything, change medication, use a
 bright screen in bed, or silence a medical device. Keep glucose monitors,
 insulin pump alerts and other medical alarms exactly as they are. If the
 practice makes sleep worse, increases anxiety, or brings on nightmares, stop.
-The threat model is [RFC 0006](rfc/0006-security-considerations.md).
+The threat model is [RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md).
 
 ## Project
 
 Experimental. Licensed under the [MIT License](LICENSE). Contributions:
 [CONTRIBUTING.md](CONTRIBUTING.md). History: [CHANGELOG.md](CHANGELOG.md).
-Build briefs used to write this repository are kept in [meta/](meta/RUNBOOK.md).
+Development history is retained in Git commits.
 
 **D-VISTA: the service is only operational during downtime.**

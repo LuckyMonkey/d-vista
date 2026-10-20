@@ -56,7 +56,7 @@ Salvador Dalí described drifting toward sleep while holding a **key above a pla
 
 In [Lacaux et al. (2021)](https://doi.org/10.1126/sciadv.abj5866), 103 participants attempted mathematical problems with a hidden shortcut. Among those spending at least 15 seconds in N1 sleep, 83% subsequently discovered the rule, versus 30% who remained awake. The advantage vanished in deeper sleep. **This is a specific creative-insight task, not a demonstration of lucid dreaming.** Nor does it prove that a dropped object is an accurate N1 detector.
 
-A separate [N1 Capture runbook](../runbooks/n1-capture.md) is available for optional daytime experiments. It never replaces the main lucidity handshake. Its outcome is a fragment remembered after waking, not dream awareness during sleep. In either protocol, adequate sleep takes priority.
+A separate [N1 Capture runbook](RUNBOOK-N1-CAPTURE.md) is available for optional daytime experiments. It never replaces the main lucidity handshake. Its outcome is a fragment remembered after waking, not dream awareness during sleep. In either protocol, adequate sleep takes priority.
 
 A 2023 [targeted dream incubation study](https://doi.org/10.1038/s41598-023-31361-w) reported improvements in theme-related creativity after guided N1 dream incubation. This supports a **dream-content/creativity** pathway, not D-VISTA's specific Wi-Fi-to-lucidity claim.
 
@@ -66,7 +66,7 @@ A 2023 [targeted dream incubation study](https://doi.org/10.1038/s41598-023-3136
 
 The [2023 systematic review](https://doi.org/10.1111/jsr.13786) considered **MILD** best-supported among reviewed induction methods, but no technique works reliably for everyone. Reality testing alone, SSILD, and several stimulation approaches have more limited or ambiguous evidence.
 
-Full claim-by-claim summary: [evidence register](evidence-register.md).
+Full claim-by-claim summary: [evidence register](EVIDENCE.md).
 
 ## 5. What is untested
 
@@ -74,7 +74,7 @@ Full claim-by-claim summary: [evidence register](evidence-register.md).
   lucid-dream cue.
 - No study has examined a router, or any similar object, as a physical anchor
   for MILD rehearsal.
-- The argument in [architecture.md](architecture.md) that an invisible,
+- The argument in [architecture.md](ARCHITECTURE.md) that an invisible,
   assumed capability is a good cue is a design argument, not a finding.
 
 Treat every night as a data point in an experiment with one participant.
@@ -129,7 +129,7 @@ with their clinician before trying lucid dreaming practices.
 
 ## 9. Sources and further reading
 
-The following publications and identifiers were checked against indexed publisher, PubMed, or full-text records on 2026-10-20. The linked [evidence register](evidence-register.md) separates each paper's demonstrated outcome from the D-VISTA hypothesis.
+The following publications and identifiers were checked against indexed publisher, PubMed, or full-text records on 2026-10-20. The linked [evidence register](EVIDENCE.md) separates each paper's demonstrated outcome from the D-VISTA hypothesis.
 
 - **Lacaux et al. (2021).** *Sleep onset is a creative sweet spot.* Science Advances. [DOI 10.1126/sciadv.abj5866](https://doi.org/10.1126/sciadv.abj5866).
 - **Horowitz et al. (2020).** *Dormio: A targeted dream incubation device.* Consciousness and Cognition. [DOI 10.1016/j.concog.2020.102938](https://doi.org/10.1016/j.concog.2020.102938).
@@ -141,3 +141,7 @@ The following publications and identifiers were checked against indexed publishe
 - **MIT Media Lab.** [Dormio: Interfacing with Dreams](https://www.media.mit.edu/projects/sleep-creativity/overview/). Historical Edison/Dalí context and technical project overview.
 
 Areas for further research: prospective memory, target-specific cue salience, sleep-stage identification, cue incorporation versus metacognitive recognition, and the reliability of subjective dream recall.
+
+## Observability and interpretation
+
+Sleep-only operation does not make the program unobservable: Konkoly et al. (2021), [DOI 10.1016/j.cub.2021.01.026](https://doi.org/10.1016/j.cub.2021.01.026), recorded real-time responses during laboratory-verified lucid REM sleep. D-VISTA currently records subjective reports, which do not amount to objective laboratory validation. See [MEASUREMENT.md](MEASUREMENT.md), [STUDY.md](STUDY.md) and [REPLICATION.md](REPLICATION.md).

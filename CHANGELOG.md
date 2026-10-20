@@ -8,9 +8,9 @@ operator.
 
 ### Added — evidence and sleep-onset capture
 
-- [N1 Capture runbook](runbooks/n1-capture.md): optional Dalí/Edison-inspired hypnagogic recording procedure; safe natural-awakening default and separate N1 reporting.
-- [RFC 0007](rfc/0007-sleep-onset-capture.md): sleep-onset capture interface independent of the REM-oriented lucid-dream handshake.
-- [Evidence register](docs/evidence-register.md): externally checked primary literature for MILD, N1 creativity, Dormio, TLR, and explicit distinction between supported findings and untested Wi-Fi hypotheses.
+- [N1 Capture runbook](RUNBOOK-N1-CAPTURE.md): optional Dalí/Edison-inspired hypnagogic recording procedure; safe natural-awakening default and separate N1 reporting.
+- [RFC 0007](RFC-0007-SLEEP-ONSET-CAPTURE.md): sleep-onset capture interface independent of the REM-oriented lucid-dream handshake.
+- [Evidence register](EVIDENCE.md): externally checked primary literature for MILD, N1 creativity, Dormio, TLR, and explicit distinction between supported findings and untested Wi-Fi hypotheses.
 - README research tracks and bootstrap link to the optional module.
 
 ### Earlier unreleased changes
@@ -33,9 +33,9 @@ Identity and experience refactor. No change to the practice itself.
 ### Added
 
 - [BOOTSTRAP.md](BOOTSTRAP.md): the 90-second installer.
-- [docs/boot-sequence.md](docs/boot-sequence.md): fiction and actual action side
+- [BOOT-SEQUENCE.md](BOOT-SEQUENCE.md): protocol analogy and actual action side
   by side; Deferred Semantic Reconstruction (an invented project term).
-- [docs/implementation-notes.md](docs/implementation-notes.md): the plain
+- [IMPLEMENTATION.md](IMPLEMENTATION.md): the plain
   account.
 
 ## 0.1.0 — 2026-10-20
@@ -52,10 +52,10 @@ Initial experimental specification.
 - RFC series 0001–0006: Reality Phase-NAT, Dream Domain Name System, Conceptual
   WLAN Discovery, Lucidity Handshake, Session Persistence, Security
   Considerations.
-- Runbooks: [tonight](runbooks/tonight.md),
-  [natural awakening](runbooks/natural-awakening.md),
-  [incident response](runbooks/incident-response.md).
-- [D-VISTA runtime operations](docs/d-vista.md): the downtime-only runtime,
+- Runbooks: [tonight](RUNBOOK-TONIGHT.md),
+  [natural awakening](RUNBOOK-NATURAL-AWAKENING.md),
+  [incident response](RUNBOOK-INCIDENT-RESPONSE.md).
+- [D-VISTA runtime operations](OPERATIONS.md): the downtime-only runtime,
   system status table and operations vocabulary.
 - Recall scoring scale 0–4.
 - Illustrative session log and dream journal template.
