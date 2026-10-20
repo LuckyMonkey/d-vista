@@ -55,6 +55,10 @@ installation.
 7. On waking, before anything else, write down what you actually remember. Note
    separately whether Wi-Fi appeared and whether you knew you were dreaming.
 
+## Optional extension (separate from installation)
+
+An experimental [N1 Capture runbook](runbooks/n1-capture.md) documents the historical Dalí key / Edison ball approach to retrieving fleeting sleep-onset imagery. It is **not necessary for D-VISTA installation** and has **not been shown to reliably induce lucidity**. The core installation remains the Wi-Fi prospective-memory rule and normal sleep. Evidence is catalogued in [docs/evidence-register.md](docs/evidence-register.md).
+
 ## Operator note
 
 The dreaming mind may produce a network, a terminal, or this repository being
