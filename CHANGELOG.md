@@ -21,6 +21,8 @@ Initial experimental specification.
 - Runbooks: [tonight](runbooks/tonight.md),
   [natural awakening](runbooks/natural-awakening.md),
   [incident response](runbooks/incident-response.md).
+- [D-VISTA runtime operations](docs/d-vista.md): the downtime-only runtime,
+  system status table and operations vocabulary.
 - Recall scoring scale 0–4.
 - Illustrative session log and dream journal template.
 

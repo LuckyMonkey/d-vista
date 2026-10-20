@@ -10,6 +10,12 @@ Reference anchor: Linksys WRT54GS
 Dependencies:     none
 ```
 
+> **dDNS requires the operator to be offline before establishing a connection.**
+>
+> The protocol runs on [D-VISTA](docs/d-vista.md), a runtime that is unavailable
+> during normal operating hours and boots only when the operator falls asleep.
+> Sleep is not downtime. Sleep is the production environment.
+
 ## Abstract
 
 dDNS is an experimental protocol for resolving a single waking intention inside
@@ -122,6 +128,7 @@ the waking rehearsal concrete. It does not need to show up at night.
 | [runbooks/tonight.md](runbooks/tonight.md) | The bedtime procedure |
 | [runbooks/natural-awakening.md](runbooks/natural-awakening.md) | Optional rehearsal after an unplanned night waking |
 | [runbooks/incident-response.md](runbooks/incident-response.md) | Troubleshooting |
+| [docs/d-vista.md](docs/d-vista.md) | D-VISTA runtime: the system that only operates during downtime |
 | [docs/glossary.md](docs/glossary.md) | Terminology |
 | [examples/](examples/sample-session-log.md) | [Sample session log](examples/sample-session-log.md) and [journal template](examples/sample-dream-journal.md) |
 

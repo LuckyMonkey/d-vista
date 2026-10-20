@@ -21,6 +21,12 @@ semantic fact "I have Wi-Fi."
 This protocol. A framework for resolving one waking intention in dream-state
 cognition. Not real DNS. Sends no queries.
 
+### D-VISTA
+
+The runtime that hosts dDNS: the operator's own sleeping mind, described as a
+system that is offline while the operator is awake and boots only during sleep.
+See [d-vista.md](d-vista.md).
+
 ### DHCP (Dynamic Host Configuration Protocol)
 Hands out IP addresses on a network. In dDNS: the dream's habit of assigning
 you a role, location or backstory without any negotiation. The dream is
@@ -30,6 +36,12 @@ permitted to assign an IP address without implementing DHCP.
 The distributed system that translates names into addresses. In dDNS: the
 general process by which a concept ("home", "Wi-Fi") is resolved into an
 experience. The name-to-meaning mapping can change between states.
+
+### Downtime
+
+In ordinary operations, time a system is unavailable. In D-VISTA, sleep, which
+is the only time the system runs. Scheduled downtime is bedtime; insomnia is
+unplanned uptime.
 
 ### Dream sign
 Something that recurs in your dreams or is characteristic of them, which can
