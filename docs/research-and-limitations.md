@@ -50,6 +50,24 @@ communication with a lucid dreamer. These are controlled studies with
 researchers monitoring sleep. D-VISTA 0.1.0 does **not** present anything during
 sleep. The cue is internal: it relies entirely on memory.
 
+## 5. Dalí, Edison, and N1 Capture: a different outcome
+
+Salvador Dalí described drifting toward sleep while holding a **key above a plate**; Thomas Edison is associated with **metal balls** released as a person dozes. These are historical accounts of attempts to retrieve ideas as sleep begins, not controlled validation of lucid-dream induction.
+
+In [Lacaux et al. (2021)](https://doi.org/10.1126/sciadv.abj5866), 103 participants attempted mathematical problems with a hidden shortcut. Among those spending at least 15 seconds in N1 sleep, 83% subsequently discovered the rule, versus 30% who remained awake. The advantage vanished in deeper sleep. **This is a specific creative-insight task, not a demonstration of lucid dreaming.** Nor does it prove that a dropped object is an accurate N1 detector.
+
+A separate [N1 Capture runbook](../runbooks/n1-capture.md) is available for optional daytime experiments. It never replaces the main lucidity handshake. Its outcome is a fragment remembered after waking, not dream awareness during sleep. In either protocol, adequate sleep takes priority.
+
+A 2023 [targeted dream incubation study](https://doi.org/10.1038/s41598-023-31361-w) reported improvements in theme-related creativity after guided N1 dream incubation. This supports a **dream-content/creativity** pathway, not D-VISTA's specific Wi-Fi-to-lucidity claim.
+
+## 5a. Newer direct lucidity cueing research
+
+[Konkoly et al. (2024)](https://doi.org/10.1016/j.concog.2024.103759) combined pre-sleep cue training with presenting the same sounds during sleep, reporting increased lucidity in home-based experiments with a controlled comparison. This is more directly relevant to cue-triggered lucidity than N1 creativity, but it used **active sensory cue presentation**. D-VISTA v0.1 offers no nighttime cueing device and cannot assume that a broadcasting Wi-Fi router reproduces the result.
+
+The [2023 systematic review](https://doi.org/10.1111/jsr.13786) considered **MILD** best-supported among reviewed induction methods, but no technique works reliably for everyone. Reality testing alone, SSILD, and several stimulation approaches have more limited or ambiguous evidence.
+
+Full claim-by-claim summary: [evidence register](evidence-register.md).
+
 ## 5. What is untested
 
 - No study has examined Wi-Fi, connectivity or any networking concept as a
@@ -111,29 +129,15 @@ with their clinician before trying lucid dreaming practices.
 
 ## 9. Sources and further reading
 
-These sources were selected from memory without live verification during
-authoring. Check them before relying on them or republishing this page.
+The following publications and identifiers were checked against indexed publisher, PubMed, or full-text records on 2026-10-20. The linked [evidence register](evidence-register.md) separates each paper's demonstrated outcome from the D-VISTA hypothesis.
 
-- LaBerge, S. (1980). Lucid dreaming as a learnable skill: A case study.
-  *Perceptual and Motor Skills*, 51(3), 1039–1042.
-- Voss, U., Holzmann, R., Tuin, I., & Hobson, J. A. (2009). Lucid dreaming: A
-  state of consciousness with features of both waking and non-lucid dreaming.
-  *Sleep*, 32(9), 1191–1200.
-- Stumbrys, T., Erlacher, D., Schädlich, M., & Schredl, M. (2012). Induction of
-  lucid dreams: A systematic review of evidence. *Consciousness and Cognition*,
-  21(3), 1456–1475.
-- Aspy, D. J., Delfabbro, P., Proeve, M., & Mohr, P. (2017). Reality testing and
-  the mnemonic induction of lucid dreams: Findings from the National Australian
-  Lucid Dream Induction Study. *Dreaming*, 27(3), 206–231.
-- Baird, B., Mota-Rolim, S. A., & Dresler, M. (2019). The cognitive neuroscience
-  of lucid dreaming. *Neuroscience & Biobehavioral Reviews*, 100, 305–323.
-- Aspy, D. J. (2020). Findings from the International Lucid Dream Induction
-  Study. *Frontiers in Psychology*, 11, 1746.
-- Horowitz, A. H., et al. (2020). Dormio: A targeted dream incubation device.
-  *Consciousness and Cognition*, 83, 102938.
-- Konkoly, K. R., et al. (2021). Real-time dialogue between experimenters and
-  dreamers during REM sleep. *Current Biology*, 31(7), 1417–1427.
+- **Lacaux et al. (2021).** *Sleep onset is a creative sweet spot.* Science Advances. [DOI 10.1126/sciadv.abj5866](https://doi.org/10.1126/sciadv.abj5866).
+- **Horowitz et al. (2020).** *Dormio: A targeted dream incubation device.* Consciousness and Cognition. [DOI 10.1016/j.concog.2020.102938](https://doi.org/10.1016/j.concog.2020.102938).
+- **Horowitz et al. (2023).** *Targeted dream incubation at sleep onset increases post-sleep creative performance.* Scientific Reports. [DOI 10.1038/s41598-023-31361-w](https://doi.org/10.1038/s41598-023-31361-w).
+- **Aspy (2020).** *Findings From the International Lucid Dream Induction Study.* Frontiers in Psychology. [DOI 10.3389/fpsyg.2020.01746](https://doi.org/10.3389/fpsyg.2020.01746).
+- **Tan & Fan (2023).** *A systematic review of new empirical data on lucid dream induction techniques.* Journal of Sleep Research. [DOI 10.1111/jsr.13786](https://doi.org/10.1111/jsr.13786).
+- **Stumbrys et al. (2012).** *Induction of lucid dreams: a systematic review of evidence.* Consciousness and Cognition. [DOI 10.1016/j.concog.2012.07.003](https://doi.org/10.1016/j.concog.2012.07.003).
+- **Konkoly et al. (2024).** *Provoking lucid dreams at home with sensory cues paired with pre-sleep cognitive training.* Consciousness and Cognition. [DOI 10.1016/j.concog.2024.103759](https://doi.org/10.1016/j.concog.2024.103759).
+- **MIT Media Lab.** [Dormio: Interfacing with Dreams](https://www.media.mit.edu/projects/sleep-creativity/overview/). Historical Edison/Dalí context and technical project overview.
 
-Topics worth reading further: prospective memory and implementation intentions;
-targeted memory reactivation; the continuity hypothesis of dreaming; sleep
-inertia and dream recall.
+Areas for further research: prospective memory, target-specific cue salience, sleep-stage identification, cue incorporation versus metacognitive recognition, and the reliability of subjective dream recall.
