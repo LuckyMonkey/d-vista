@@ -25,7 +25,7 @@ Uncertainties:
 Anything that made sleep worse:
 ```
 
-Scoring, from [runbooks/tonight.md](../runbooks/tonight.md):
+Scoring, from [RUNBOOK-TONIGHT.md](RUNBOOK-TONIGHT.md):
 
 | Score | Meaning |
 | --- | --- |
@@ -37,7 +37,7 @@ Scoring, from [runbooks/tonight.md](../runbooks/tonight.md):
 
 ## Example entries
 
-> **Illustrative.** These entries are fictional, written to show how to fill in
+> **Illustrative.** These example entries are synthetic and not actual participant observations, written to show how to fill in
 > the template. They are not results.
 
 ### Entry A: no lucidity
@@ -68,7 +68,7 @@ Anything that made sleep worse:  no
 
 Reading this entry: the dream produced something adjacent to connectivity, but
 the intention never came back. Per
-[incident-response.md](../runbooks/incident-response.md#connection_refused-warn),
+[incident-response.md](RUNBOOK-INCIDENT-RESPONSE.md#connection_refused-warn),
 the next step is more rehearsal of the question, not more rehearsal of the
 router. This is a normal, conformant night.
 

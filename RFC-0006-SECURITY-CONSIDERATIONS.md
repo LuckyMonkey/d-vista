@@ -94,7 +94,7 @@ about the world.
 
 **Controls.** All dream content is untrusted and unauthenticated. The dream is
 authoritative for nothing. The dreamed `ssh fridge` in
-[RFC 0005](0005-session-persistence.md) connects to nothing and its output
+[RFC 0005](RFC-0005-SESSION-PERSISTENCE.md) connects to nothing and its output
 means nothing outside the dream. Do not type anything a dream told you into a
 real terminal.
 

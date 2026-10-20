@@ -11,7 +11,7 @@ Category: Experimental / Informational
 
 ## Status of This Memo
 
-Experimental D-VISTA extension. Not an IETF RFC. Does not alter the normative LCP handshake specified in [RFC 0004](0004-lucidity-handshake.md).
+Experimental D-VISTA extension. Not an IETF RFC. Does not alter the normative LCP handshake specified in [RFC 0004](RFC-0004-LUCIDITY-HANDSHAKE.md).
 
 ## Abstract
 
@@ -37,17 +37,17 @@ An N1 fragment does **not** satisfy LCP session authentication.
 
 ## 3. Procedure
 
-Follow [runbooks/n1-capture.md](../runbooks/n1-capture.md). Use natural awakening and journaling as the default. The historical object-drop trick is not a requirement. Nighttime alarms and deliberate sleep deprivation remain unsupported under D-VISTA 0.1.
+Follow [RUNBOOK-N1-CAPTURE.md](RUNBOOK-N1-CAPTURE.md). Use natural awakening and journaling as the default. The historical object-drop trick is not a requirement. Nighttime alarms and deliberate sleep deprivation remain unsupported under D-VISTA 0.1.
 
 ## 4. Evidence boundaries
 
 Lacaux et al. (2021) reported higher rates of identifying a hidden rule after brief N1 sleep than after remaining awake in a specific laboratory task. The study does not establish that dropping a ball improves lucid dreaming, does not imply insight is always correct, and does not validate the project-specific Wi-Fi cue.
 
-MIT's Dormio system (Horowitz et al., 2020; 2023) studies targeted *dream content* near sleep onset. That is a separate result from lucid-dream induction. See the [evidence register](../docs/evidence-register.md).
+MIT's Dormio system (Horowitz et al., 2020; 2023) studies targeted *dream content* near sleep onset. That is a separate result from lucid-dream induction. See the [evidence register](EVIDENCE.md).
 
 ## 5. Security and safety considerations
 
-Never impair sleep, disable medical alarms, or use hazardous falling objects. Reality orientation is preserved: the sleeping experience is subjective, and any dream-generated answer requires waking verification. If experimentation worsens sleep, terminate the protocol. See [RFC 0006](0006-security-considerations.md).
+Never impair sleep, disable medical alarms, or use hazardous falling objects. Reality orientation is preserved: the sleeping experience is subjective, and any dream-generated answer requires waking verification. If experimentation worsens sleep, terminate the protocol. See [RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md).
 
 ## 6. Implementation status
 

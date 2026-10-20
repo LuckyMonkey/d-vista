@@ -17,7 +17,7 @@ not resumable.
 
 ## Abstract
 
-Lucid sessions established under [RFC 0004](0004-lucidity-handshake.md) are
+Lucid sessions established under [RFC 0004](RFC-0004-LUCIDITY-HANDSHAKE.md) are
 often short, and their contents are often lost on waking. This document
 describes how to keep a session stable long enough to do one planned action, and
 how to write it to persistent storage afterward.
@@ -83,7 +83,7 @@ never required.
 If a lucid dream becomes unpleasant, the operator MAY do any of the following:
 remind themselves it's a dream and cannot hurt them, turn away from the
 unpleasant element, or try to wake up gently by focusing on the body in bed.
-See [runbooks/incident-response.md](../runbooks/incident-response.md).
+See [RUNBOOK-INCIDENT-RESPONSE.md](RUNBOOK-INCIDENT-RESPONSE.md).
 
 ## 6. Recall (flush to disk)
 
@@ -98,11 +98,11 @@ On waking, from any state:
 4. **Separate the two facts.** "Wi-Fi appeared: yes/no." "I knew I was dreaming:
    yes/no."
 5. **Score it** using the 0–4 scale in
-   [runbooks/tonight.md](../runbooks/tonight.md).
+   [RUNBOOK-TONIGHT.md](RUNBOOK-TONIGHT.md).
 6. **Go back to sleep** if it is still night. Recall MUST NOT turn into staying
    up.
 
-The template is [examples/sample-dream-journal.md](../examples/sample-dream-journal.md).
+The template is [DREAM-JOURNAL-TEMPLATE.md](DREAM-JOURNAL-TEMPLATE.md).
 
 ## 7. Operational considerations
 
@@ -122,4 +122,4 @@ The template is [examples/sample-dream-journal.md](../examples/sample-dream-jour
 ## 9. Security Considerations
 
 Output from a dreamed terminal is not output from a terminal. See
-[RFC 0006](0006-security-considerations.md).
+[RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md).

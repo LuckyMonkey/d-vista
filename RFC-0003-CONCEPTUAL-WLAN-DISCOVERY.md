@@ -26,7 +26,7 @@ contextual knowledge, which makes it unusually cheap for a dream to produce.
 
 This document defines what counts as discovering Wi-Fi in a dream and how
 representations of it are treated. It does not define the response
-([RFC 0004](0004-lucidity-handshake.md)).
+([RFC 0004](RFC-0004-LUCIDITY-HANDSHAKE.md)).
 
 ## 2. Terminology
 
@@ -83,7 +83,7 @@ single high-fidelity representation and discarded the main advantage of the cue.
 - **Rehearse the fact, not the picture.** During waking rehearsal, include at
   least one imagined scenario with no router and no screen, in which the
   operator simply knows Wi-Fi is available
-  ([runbooks/tonight.md](../runbooks/tonight.md), step 4).
+  ([RUNBOOK-TONIGHT.md](RUNBOOK-TONIGHT.md), step 4).
 - **Notice it awake.** During the day, the moment you realize you are connected
   (a page loads, a phone joins a network) is an opportunity for a brief, honest
   check. This builds the habit that MILD relies on. Keep it occasional and calm.
@@ -105,4 +105,4 @@ single high-fidelity representation and discarded the main advantage of the cue.
 
 Dreamed networks have no security properties. Do not join them, do not trust
 them, and do not report them to your ISP. See
-[RFC 0006](0006-security-considerations.md).
+[RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md).

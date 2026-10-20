@@ -137,17 +137,17 @@ Before you check your phone or get up:
 | `4` | Lucid, and the intended action was attempted |
 
 5. If it's still night, go back to sleep. If you woke naturally and feel like
-   it, you can use [natural-awakening.md](natural-awakening.md). Don't force it.
+   it, you can use [natural-awakening.md](RUNBOOK-NATURAL-AWAKENING.md). Don't force it.
 
 Use the template in
-[examples/sample-dream-journal.md](../examples/sample-dream-journal.md) if you
+[DREAM-JOURNAL-TEMPLATE.md](DREAM-JOURNAL-TEMPLATE.md) if you
 want structure.
 
 ## Step 8. If this is making things worse
 
 If the routine makes you anxious, keeps you awake, wakes you up, or brings
 nightmares: **stop, and just sleep.** Nothing is lost. The details are in
-[RFC 0006](../rfc/0006-security-considerations.md).
+[RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md).
 
 ## Checklist
 

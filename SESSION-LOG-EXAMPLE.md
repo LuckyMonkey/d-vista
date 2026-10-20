@@ -90,13 +90,13 @@ D-VISTA session log  (illustrative)
 
 - The cue arrived as **dialogue** ("the Wi-Fi is free here"), not as a router or
   an icon. This is the low-fidelity discovery described in
-  [RFC 0003](../rfc/0003-conceptual-wlan-discovery.md).
+  [RFC 0003](RFC-0003-CONCEPTUAL-WLAN-DISCOVERY.md).
 - The check examined the **situation** (continuity, plausibility, text
   stability), as specified in
-  [RFC 0004](../rfc/0004-lucidity-handshake.md).
+  [RFC 0004](RFC-0004-LUCIDITY-HANDSHAKE.md).
 - The dreamed terminal output is clearly separated from real I/O. The milk
   warning is not actionable.
 - The 07:12 check is optional, and included only to make the point. There is no
   need to audit real servers after a dream.
 - A realistic first week is likely to look more like the second example above, or
-  the entries in [sample-dream-journal.md](sample-dream-journal.md).
+  the entries in [sample-dream-journal.md](DREAM-JOURNAL-TEMPLATE.md).

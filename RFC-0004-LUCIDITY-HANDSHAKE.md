@@ -24,8 +24,8 @@ the final step counts as success.
 ## 1. Scope
 
 This document specifies the handshake and its failure cases. Cue discovery is
-in [RFC 0003](0003-conceptual-wlan-discovery.md); what to do once lucid is in
-[RFC 0005](0005-session-persistence.md).
+in [RFC 0003](RFC-0003-CONCEPTUAL-WLAN-DISCOVERY.md); what to do once lucid is in
+[RFC 0005](RFC-0005-SESSION-PERSISTENCE.md).
 
 ## 2. Terminology
 
@@ -99,8 +99,8 @@ This also keeps waking checks safe: because the answer while awake is honestly
 | Cached response | The question was asked; "awake" was returned without looking. | Rehearse checking the situation, not just saying the words. |
 | Rationalized anomaly | Something was off; the dream explained it away. | During rehearsal, practice saying "that doesn't fit, so this is a dream." |
 | Incorporated cue | The dream turned the intention into plot: you dream of explaining dDNS to someone. | None needed; it shows incubation working. Continue. |
-| Stale cache | The router or the docs appeared; the rule did not. | Rehearse the question more than the anchor. See `STALE_CACHE` in [incident response](../runbooks/incident-response.md#stale_cache-warn). |
-| Brief session | Recognition happened; you woke seconds later. | Counts as success. See [RFC 0005](0005-session-persistence.md). |
+| Stale cache | The router or the docs appeared; the rule did not. | Rehearse the question more than the anchor. See `STALE_CACHE` in [incident response](RUNBOOK-INCIDENT-RESPONSE.md#stale_cache-warn). |
+| Brief session | Recognition happened; you woke seconds later. | Counts as success. See [RFC 0005](RFC-0005-SESSION-PERSISTENCE.md). |
 
 The incorporated-cue case deserves emphasis. An ordinary, non-lucid dream full
 of routers, networks and Wi-Fi is a common early outcome. It is evidence that the
@@ -121,4 +121,4 @@ it as score 2, not 3.
 A handshake that concludes "dreaming" while the operator is in fact awake is a
 serious fault. The check exists to increase orientation. If waking checks begin
 to produce doubt rather than confirmation, stop the protocol. See
-[RFC 0006](0006-security-considerations.md).
+[RFC 0006](RFC-0006-SECURITY-CONSIDERATIONS.md).
